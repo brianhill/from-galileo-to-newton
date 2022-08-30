@@ -23,8 +23,8 @@ Detailed daily schedules (kept retrospectively):
 
 Four major areas:
 
-* Strong preparation for each class: 20%
-* Weekly problem sets (except during exam weeks): 35%
+* Strong preparation for each class: 25%
+* Weekly problem sets (except during exam weeks): 30%
 * A midterm towards the end of Term 2: 20%
 * A final exam towards the end of Term 3: 25%
 
