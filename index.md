@@ -32,8 +32,8 @@ Four major areas:
 
 Like Brian Shulse, the BH Manager, I have found that it is necessary to spell basic hygiene out (maybe for this group it is unnecessary):
 
-* Do your work on 8&thinspace;1/2x11 paper &mdash; not other screwball paper.
-* Don't use torn out pages from bound notebooks (unless the bound notebook has perforations specifically for making neat 8&thinspace;1/2x11 tearouts).
+* Do your work on 8 1/2x11 paper &mdash; not other screwball paper.
+* Don't use torn out pages from bound notebooks (unless the bound notebook has perforations specifically for making neat 8 1/2x11 tearouts).
 * Recopy work until it is neat using pen &mdash; or erase completely if using pencil &mdash; so your work is not covered with scratchouts.
 * You will see that in my write-ups, I hold myself to these standards.
 * We will accumulate many resources, examples, and problem sets. Get a three-ring binder to keep all of these organized.
