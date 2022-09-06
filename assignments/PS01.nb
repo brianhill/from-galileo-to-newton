@@ -1,0 +1,416 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18169,        406]
+NotebookOptionsPosition[     16413,        366]
+NotebookOutlinePosition[     16863,        384]
+CellTagsIndexPosition[     16820,        381]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Newton \[LongDash] Problem Set 1", "Section",
+ CellChangeTimes->{{3.8713829840911713`*^9, 3.871382989885779*^9}, {
+  3.871383097198255*^9, 3.871383109472487*^9}, {3.871383326862706*^9, 
+  3.8713833808344088`*^9}, {3.871426734155431*^9, 
+  3.871426735236566*^9}},ExpressionUUID->"47b43857-58c2-4fa2-b265-\
+428f10ab71de"],
+
+Cell[CellGroupData[{
+
+Cell["Due Thursday, Sep. 8 (beginning of class)", "Subtitle",
+ CellChangeTimes->{{3.871430751344658*^9, 3.871430776838911*^9}},
+ FontSize->16,
+ FontSlant->"Italic",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+
+Cell[CellGroupData[{
+
+Cell["1. Can Speed be Proportional to Distance, rather than Time?", \
+"Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 
+  3.871383085838428*^9}},ExpressionUUID->"2df20ea7-e6bb-498b-ac19-\
+79575d6fe122"],
+
+Cell[TextData[{
+ "In the definition of uniform accelerated motion, Sagredo, who represents a \
+bright colleague of Galileo, suggests that \[OpenCurlyDoubleQuote]speed could \
+be proportional to distance traversed,\[CloseCurlyDoubleQuote] rather than in \
+proportion to the time elapsed. Sagredo\[CloseCurlyQuote]s suggestion is on \
+p. 167. Salviati, who represents Galileo, is comforted to have a companion in \
+this error, which he now recognizes as a fallacy. Simplicio, the buffoon \
+representing the establishment  scholars, not only accepts the proposition, \
+but says it \[OpenCurlyDoubleQuote]ought to be conceded without hesitation or \
+controversy.\[CloseCurlyDoubleQuote]\n\nSalviati ignores Simplicio and then \
+says something even stronger: he not only claims it is not how nature is, he \
+claims it is an impossible type of motion (p. 168). Galileo does not have \
+calculus at his disposal. We do, and we know the solution to the differential \
+equation v = \[Alpha] x exists and is x(t) = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "0", ")"}], 
+    SuperscriptBox["e", 
+     RowBox[{"\[Alpha]", "\[VeryThinSpace]", "t"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "58580784-7cc6-43b8-9abe-714ccfdaf5c9"],
+ ". Below I have graphed this function for the time range 0 seconds to 1 \
+second, with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["x", "0"], "=", 
+    RowBox[{"0.1", " ", "meters"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "85ba06ff-3f9f-44ab-b894-34e9a6eee4e9"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Alpha]", "=", 
+    RowBox[{"3", "/", "second"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f8793f2c-7410-4124-a24a-d5ac8e192dfc"],
+ ". Is there anything completely unreasonable about this solution? In other \
+words, is Galileo wrong in saying it is an ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " impossible type of motion, and not merely not how nature is? I suspect \
+this could be argued either way. Say something clear and compelling that you \
+believe. No matter what, your answer should reference this plot:"
+}], "Text",
+ CellChangeTimes->{{3.8713832628324738`*^9, 3.871383273823511*^9}, {
+  3.871426800529079*^9, 3.871426873562049*^9}, {3.8714269245613003`*^9, 
+  3.871427329879901*^9}, {3.87142737444771*^9, 3.871427704672248*^9}, {
+  3.8714278479719*^9, 3.871427848489871*^9}, {3.87142838563575*^9, 
+  3.8714284664835577`*^9}, {3.8714285006436567`*^9, 3.8714285091714973`*^9}, {
+  3.871430803231887*^9, 
+  3.87143091050137*^9}},ExpressionUUID->"64bb7e4b-076f-4358-97c8-\
+0684f0cc5c3d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"x0", " ", 
+     RowBox[{"Exp", "[", 
+      RowBox[{"\[Alpha]", " ", "t"}], "]"}]}], "/.", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"x0", "->", " ", "0.1"}], ",", " ", 
+      RowBox[{"\[Alpha]", "->", "3"}]}], "}"}]}], " ", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", " ", "0", ",", " ", "1"}], "}"}], ",", " ", 
+   RowBox[{"GridLines", "->", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.871427727589034*^9, 3.871427867974959*^9}, {
+  3.87142815801005*^9, 3.871428237206533*^9}, {3.871428292492257*^9, 
+  3.871428413400476*^9}, {3.871428446197424*^9, 3.871428454432104*^9}, {
+  3.8714309665643587`*^9, 3.871430976754787*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"8282f754-01e9-48c4-bb6d-da91448acece"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    TagBox[
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
+      1.], LineBox[CompressedData["
+1:eJwVjms0lAkAhoe0lJKRLqPQ2NColi2RanvHsqVEa2iliCNa6ao4bdt2wg4r
+l3Icd0JMbbFMhWoYFBOR+6ihMExjDIOPmBxq51v74znvr+c9D93/AitQnUKh
+uCzw/x4MlHe8GDmyV+QyVJqRwYOGg8FFMc0aTs2Revm5PGzPTc8upTki03dF
+X9E9HpxbRE/u0DxgMHToWd1jHjwDZquSaAHwrKi5qdHEQ5/lXw4JtFC0p8xN
+Nc3zkLfqcHQsjY0n8SmW53wqEKFVan6TlgyTrR/vGphX4qjXXe7kFAeC2JpC
+9yk+tMkI7/1GXLz6+tQx+Hk1TN0m5HVxZUgOsi3qcXqBK612SJ/hYXMf3azE
+6yXWlFH71dRqcE1xZufJoFo8lTg0t+2pRYrrOuaZvDrUBt9Z5zUmwLIlacM9
+MgGUZj+sKD7XACP1U+4XLOqhPleku860CR717OtXchtgQ/o9dS9phvRd7PZ2
+aiOa2dat9RZt6Kbj8mBSE4wTFXMPJ9rxLENU8sG1GYpZcf9bq074lewq2KnZ
+Cs5oZZPOLSE8bQu5wWrt0DH8m5BKu9Aea9w0sLQD8afLT+VtfAd3xyqrcWon
+PjOLpEE3RFAOabKt7IUI3SYoW13XjZ//CV/FON8FcYkgroP+Hsqw6hDdxrf4
+EtyVxfj9AyaE/nqa1iJsttdUnarshfwneuFwVjf259N/fbymHw3LDtjW7XqP
+K4a+JoPeYrAsI1/y3n3AlrEj2iKXATBXtwiM/+zDyhWTWoL5AawNZTG1Q8TQ
+qMnifps9iOQdqa+jiwdwxrqyZ4mzBCIl5ETDIIoO+OdVf5ZgZFLmcZyQQKkw
+0JWlfkQQp561SV+Kcvf9i5IdpegcfHO/PHAIN5yicstkUvDuHaU2lslA7zvY
+XRA1hGeuXE8zqhy7bNnJtG0yvM5/FdaRPwJvo7Y5NaEMgap5J8b3CiibEiQX
+I4axuEMz7ujXMaRrnAhlbVzweuKyzgkmsLK/PF9dIIfCx3zM//AkFl+P8LAL
+GcF5D936Tr8pUB6e4Er0RtFmopwxv/gJlzK5CXq1o2Bf77s1/GAaVZtjtKjn
+FfimdTrTYHIG1IOXtkTqjCFM+FB81fozere2C6/yx5BTm3rtdOEsHuVgo/TE
+OAzS9Vc+MpyDD9eGaqgaB399wJeq3HmER92N6C2cQJ4kY7rH+yuK5YZZOocI
+WDhEq3xXqxBzJ8qv35XAsRA758NGKgSwxk1L3Aic9crjMs1UWM/nP3LxJHAh
+vfolw0aF2NvH6+P9CXDqeAarflEhyCZjaulVAuqmy9e7papgwtZ30ry/4A9P
+7/NfS0K184/logcElNu4OSkbSPSMf+y8X0QgUUt3w5tNJBI9S332PSYQFrk0
+f48dCdKCdTmKT8D/svSJ3TESvR23cxYJCYza82Kys0k8j549KXxLYIM4qeYT
+h0Tybl9GQffCn5sjw7mYhPO978p+7CfQkBmepl5NouK3lsaIEQL6SRwiTkwi
+deuO225jCz2ZES3TwyRCJNkedIJA/N5+ic8kiU2HzopfzBBQS7I5nk2hMDXU
+ujiJswT60oYqujQozIHy3cF+8wQI63BbnSUUJj+4wNLqXwImCW4dTsspzDRj
+bSVJEmB0c2LYVArzP0DVeQI=
+       "]]},
+     Annotation[#, "Charting`Private`Tag$27540#1"]& ]}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{Automatic, Automatic},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  ImageSize->{Automatic, 321.66473754224035`},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {0., 2.008553569346095}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.871428183653454*^9, 3.871428237598984*^9}, {
+  3.8714283031293*^9, 3.8714283214746037`*^9}, {3.871428360164147*^9, 
+  3.8714284139589157`*^9}, {3.8714284471928177`*^9, 3.8714284692938643`*^9}, {
+  3.87143097139491*^9, 3.871430977357204*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"355119c1-d3f7-4b88-8ba9-a7a2150210c1"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. The Difference Between Rolling and Falling", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, {
+  3.87142855172886*^9, 
+  3.871428577477642*^9}},ExpressionUUID->"6408f235-8853-458f-ab6a-\
+57fde73b293e"],
+
+Cell["\<\
+(a) I will use the language of modern readers. If I throw a ball at 80 mph it \
+has some kinetic energy. If I throw the same ball at 80 mph and put a spin on \
+it, it has the kinetic energy of translation as before, but it now also has \
+the kinetic energy of rotation. If a ball reaches the bottom of an extremely \
+steep, nearly vertical inclined plane and is rolling, would one expect it to \
+have more or less speed at the bottom than if it is sliding without friction \
+and without rotation down the same plane? The idea here is to use our modern \
+concept of energy conservation wherein the gravitational potential energy at \
+the top of the plane has been converted to kinetic energy at the bottom.
+(b) With (a) in mind, comment on Galileo\[CloseCurlyQuote]s arguments \
+surrounding Fig. 45.\
+\>", "Text",
+ CellChangeTimes->{{3.8713832628324738`*^9, 3.871383273823511*^9}, {
+   3.871426800529079*^9, 3.871426873562049*^9}, {3.8714269245613003`*^9, 
+   3.871427329879901*^9}, {3.87142737444771*^9, 3.871427704672248*^9}, {
+   3.8714278479719*^9, 3.871427848489871*^9}, {3.87142838563575*^9, 
+   3.8714284664835577`*^9}, {3.8714285006436567`*^9, 
+   3.8714285091714973`*^9}, {3.871428584364835*^9, 3.871428755263803*^9}, {
+   3.871428828175818*^9, 3.871429023328964*^9}, {3.871429141656774*^9, 
+   3.871429291664153*^9}, {3.871431044909902*^9, 3.87143106898948*^9}, {
+   3.871432262181432*^9, 3.8714322658035*^9}, 
+   3.8714323296145153`*^9},ExpressionUUID->"9c2af94f-f34b-429a-91d2-\
+5f4a3783ba40"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+3. 1, 3, 5, ... Sagredo is the king of straightforward arguments\
+\>", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, {
+  3.87142855172886*^9, 3.871428577477642*^9}, {3.871429109324134*^9, 
+  3.871429126199758*^9}, {3.871430674034781*^9, 3.871430681706339*^9}, {
+  3.871432073073194*^9, 
+  3.871432125275112*^9}},ExpressionUUID->"cfe0f657-89c6-49d8-84d5-\
+0aac64abf9a2"],
+
+Cell["\<\
+(a) Copy Fig. 49 onto your solution. Locate the triangle ABC. What other \
+triangles have the same size and shape as ABC? Sagredo and I see two. \
+Identify them in your figure.
+(b) By cutting up rectangles N?CI and QFIO into triangles, argue that the \
+second row has three times the area as the first and the third row has five \
+times the area as the first. Once you see how to do this, it is \
+straightforward. You needn\[CloseCurlyQuote]t look for some complex answer \
+because your answer seems too simple. (Sagredo also advances pleasantly \
+straightforward arguments on p. 186.)\
+\>", "Text",
+ CellChangeTimes->{{3.8713832628324738`*^9, 3.871383273823511*^9}, {
+   3.871426800529079*^9, 3.871426873562049*^9}, {3.8714269245613003`*^9, 
+   3.871427329879901*^9}, {3.87142737444771*^9, 3.871427704672248*^9}, {
+   3.8714278479719*^9, 3.871427848489871*^9}, {3.87142838563575*^9, 
+   3.8714284664835577`*^9}, {3.8714285006436567`*^9, 
+   3.8714285091714973`*^9}, {3.871428584364835*^9, 3.871428755263803*^9}, {
+   3.871428828175818*^9, 3.871429023328964*^9}, {3.871429135085967*^9, 
+   3.871429135288105*^9}, {3.871429332343191*^9, 3.87142953379841*^9}, {
+   3.871430546502936*^9, 3.871430562625251*^9}, {3.871430610001568*^9, 
+   3.871430694150424*^9}, {3.871431087180146*^9, 3.8714310892175913`*^9}, {
+   3.8714318949842463`*^9, 3.8714318985407047`*^9}, {3.8714320692722483`*^9, 
+   3.87143206991261*^9}, {3.87143213744798*^9, 3.871432138977522*^9}, {
+   3.871432177003756*^9, 3.871432221029642*^9}, 
+   3.871432331942885*^9},ExpressionUUID->"382913ff-4e7f-41b4-8986-\
+92e241236bd9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Galilean Relativity", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, {
+  3.87142855172886*^9, 3.871428577477642*^9}, {3.871429109324134*^9, 
+  3.871429126199758*^9}, {3.871429570213929*^9, 
+  3.8714295766705*^9}},ExpressionUUID->"9542490c-b64d-4a36-bf9d-be7b00b0ee82"],
+
+Cell[TextData[{
+ "(a) In round numbers, the surface of the Earth is rotating eastward at a \
+speed of 25,000 miles every 24 hours at the Equator (it is less than that \
+away from the Equator). The radius of the Earth is 3960 miles. For precision \
+and consistency, replace 25,000 in the above by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "\[VeryThinSpace]\[VeryThinSpace]", 
+    RowBox[{"\[Pi]", "\[VeryThinSpace]", "\[CenterDot]", "3960"}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "227a0424-af8d-4359-bfb6-9d5c4d4b5b77"],
+ ". The Earth\[CloseCurlyQuote]s spin around its axis is not uniform motion. \
+It is rotational motion. We need to see how much of a problem this is. If you \
+could throw a ball a mile in the air (so that it was briefly at a distance of \
+3961 miles from the center of the Earth before coming back down), how much \
+faster would the air molecules around the ball at the peak of the trajectory \
+be moving eastward than the ball (which retains the eastward velocity it had \
+when it left your hand).\n(b) Would the ball land to the east of you, to the \
+west of you, or right back on you? Ignore air resistance. The only reason we \
+brought up air molecules in (a) is to have something we could visualize and \
+compare with at the peak of the trajectory.\n(c) To throw a ball  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"h", "=", 
+    RowBox[{"1", " ", "mile"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "438ad5d6-591d-40cf-a2f9-613248d75ac5"],
+ " in the air requires a large initial speed,  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "=", 
+    SqrtBox[
+     RowBox[{"2", "\[VeryThinSpace]", "g", "\[VeryThinSpace]", "h"}]]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "180d00d4-ee05-460c-befd-58407d2a70b9"],
+ ". In these units ",
+ Cell[BoxData[
+  FormBox["g", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "632e6c49-c74d-4244-b4cb-7a3b0e7552d8"],
+ ", the acceleration of gravity, is about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"80000", " ", 
+    RowBox[{"miles", "/", 
+     SuperscriptBox["hour", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "84ede9fd-771b-4986-bf06-441976232a32"],
+ ". What is the initial speed ",
+ Cell[BoxData[
+  FormBox["v", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4eded0a6-47e0-4688-992f-efb3357de59f"],
+ " in miles per hour?"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQAGIQvWDxrdvCN944mkRZ3QXR5u8E5DSBtN8fQ3UQrfNt
+oi6IVtOwSQDRS4LPpYJovmbRfhB9TvL/AhDNtpZ/IYgWiDB5AtZf6f8ORF+b
+MeUTiH5Rs/QziN61hvsviBYuzBDSAtK+C1qlQfSDtlfGINruwCNHEK1h8RJM
+5/zuigLRk3t2FoPotDNt1SD63b2KJhD97xp/B4j2L7XfCKJTDL23guj54Z2H
+QXTCee2TIPr8Kd8LIHqmpfU1EH3sbtwLEC3EtOwtiN6TqvYRRIdoittrg+xp
+PewLohMlJSJA9IIgtTQQnVXC0Q2i1SYcmQCi/+0onA+ir+j0LgLRdjoZK0H0
+13WvwXRyYvBxEP204CqY7qv8fRFEu1w0vQSiAUyvy8c=
+  "],ExpressionUUID->"00d4111d-2dbe-46ae-83b0-19b5de205369"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[TextData[StyleBox["\nI apologize that most of my questions were modern \
+in nature and that I used Imperial units everywhere. It is a retreat to \
+familiar terrain for me. On the other hand, I do think that the first two of \
+these questions take you a little further than Galileo, thanks to several \
+centuries of people building on his work.",
+ FontSize->14,
+ FontSlant->"Italic"]], "Subtitle",
+ CellChangeTimes->{{3.8714315021419067`*^9, 3.871431661017378*^9}, {
+   3.871431843616933*^9, 3.871431847014976*^9}, {3.871432281161889*^9, 
+   3.871432281766705*^9}, 
+   3.871432340110484*^9},ExpressionUUID->"9bd11946-55ff-4b50-8ed8-\
+e14ac17e5592"]
+},
+WindowSize->{808, 911},
+WindowMargins->{{-1623, Automatic}, {Automatic, 51}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fdb56f20-f88b-4f34-a223-df27a3586917"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 325, 5, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
+Cell[CellGroupData[{
+Cell[908, 29, 219, 3, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+Cell[CellGroupData[{
+Cell[1152, 36, 211, 4, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"],
+Cell[1366, 42, 2660, 53, 334, "Text",ExpressionUUID->"64bb7e4b-076f-4358-97c8-0684f0cc5c3d"],
+Cell[CellGroupData[{
+Cell[4051, 99, 799, 18, 30, "Input",ExpressionUUID->"8282f754-01e9-48c4-bb6d-da91448acece"],
+Cell[4853, 119, 3690, 79, 339, "Output",ExpressionUUID->"355119c1-d3f7-4b88-8ba9-a7a2150210c1"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8592, 204, 243, 4, 54, "Subsection",ExpressionUUID->"6408f235-8853-458f-ab6a-57fde73b293e"],
+Cell[8838, 210, 1514, 23, 196, "Text",ExpressionUUID->"9c2af94f-f34b-429a-91d2-5f4a3783ba40"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10389, 238, 414, 8, 54, "Subsection",ExpressionUUID->"cfe0f657-89c6-49d8-84d5-0aac64abf9a2"],
+Cell[10806, 248, 1599, 25, 150, "Text",ExpressionUUID->"382913ff-4e7f-41b4-8986-92e241236bd9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12442, 278, 311, 4, 54, "Subsection",ExpressionUUID->"9542490c-b64d-4a36-bf9d-be7b00b0ee82"],
+Cell[12756, 284, 2974, 65, 294, "Text",ExpressionUUID->"00d4111d-2dbe-46ae-83b0-19b5de205369"]
+}, Open  ]]
+}, Open  ]],
+Cell[15757, 353, 652, 11, 97, "Subtitle",ExpressionUUID->"9bd11946-55ff-4b50-8ed8-e14ac17e5592"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
