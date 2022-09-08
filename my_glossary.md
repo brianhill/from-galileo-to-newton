@@ -1,7 +1,7 @@
 ## My Glossary of Terms Used by Newton
 
-*It would be valuable for each person to maintain their own glossary in whatever way supports their own understanding. Hence, this is merely "my glossary," intended
-to be a model rather than a glossary for all of us.
+*It would be valuable for each person to maintain their own glossary in whatever way supports their own understanding. Hence, this is merely &ldquo;my glossary,&rdquo; intended
+to be a model rather than a glossary for all of us.*
 
 *Page numbers refer to Densmore, 3rd edition.*
 

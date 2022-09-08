@@ -3,7 +3,7 @@
 Course [home page](./)
 
 As we proceed into Newton at the end of Week 2, it will be important for each of us to maintain a glossary which represents
-our best understanding of terms used by Newton, as he uses them. Here is the beginning of [my glossary](./glossary.html).
+our best understanding of terms used by Newton, as he uses them. Here is the beginning of [my glossary](./my_glossary.html).
 
 ### Week 1 &mdash; Euclid's Understanding of Ratios &mdash; Galileo's Understanding of Uniform Motion
 
