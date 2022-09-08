@@ -2,6 +2,9 @@
 
 Course [home page](./)
 
+As we proceed into Newton at the end of Week 2, it will be important for each of us to maintain a glossary which represents
+our best understanding of terms used by Newton, as he uses them. Here is the beginning of [my glossary](./glossary.html).
+
 ### Week 1 &mdash; Euclid's Understanding of Ratios &mdash; Galileo's Understanding of Uniform Motion
 
 * Preparation for Tuesday, Aug. 30 &mdash; In a footnote, you will see that Galileo relies upon Book V Definition 5 of Euclid regarding proportionality. Here is an image of the [first page of Book V](./resources/EuclidBookVDefinition5.jpeg). Read the first six definitions critically in tandem with reading the first three theorems. In addition to being prepared to discuss the reading, create example problems with numbers that illustrate what Galileo is saying. 2-3 problems on one page would be a good amount. I will step out and photocopy them. We will spend a bunch of class time solving a selection of each others' problems. In these problems try to avoid using *d = v t*. That is not how any of Euclid, Galileo, or Newton write. Instead, they write in terms of ratios. The illustrative problems you create to share with one another should therefore also be posed in terms of ratios.
