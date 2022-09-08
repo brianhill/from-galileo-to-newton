@@ -19,3 +19,10 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 * NB/Context: *The Dialogue Concerning the Two Chief World Systems,* published in 1632 is the book that got Galileo on trial. It was banned in 1633 and not permitted to be published in Catholic countries until 1835. Galileo makes many arguments with the ultimate conclusions being that the Earth revolves daily, it is in motion around the Sun, and that the Sun and the Moon raise the tides. The specific argument we are reading is an argument for what is now known as Galilean Relativity. The idea is that you cannot detect if you are in uniform motion. This does not quite address either revolution around the Earth's axis or circular motion around the Sun, but it nonetheless goes a very long way toward explaining why we do not sense that we are hurtling through space at 67,000 miles per hour.
 * We will now leave Galileo and turn to Newton, but in addition to your first Newton reading, you will have an actual problem set on Galileo to do for Thursday.
 * Preparation for Thursday, Sep. 8 &mdash; In addition to doing the problem set on Newton, read pp. 5-19 of the Densmore edition of the Principia
+* Thursday, Sep. 8 &mdash; Need for [my glossary](./my_glossary.html) &mdash; Newton's Cannon (see Densmore pp. 14-15)
+
+<img src="../resources/NewtonsCannon.jpeg" width="200">
+
+### Week 3 &mdash; Finish Newton's Definitions &mdash; Begin Book I
+
+* Preparation for Tuesday, Sep. 13 (we begin meeting Tu/Th/Fr from 9:40-10:40) &mdash; Read pp. 20-46 of the Densmore edition
