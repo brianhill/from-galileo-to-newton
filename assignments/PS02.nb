@@ -1,0 +1,72 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2133,         64]
+NotebookOptionsPosition[      1507,         44]
+NotebookOutlinePosition[      1957,         62]
+CellTagsIndexPosition[      1914,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Newton \[LongDash] Problem Set 2 \[LongDash] The First Three Lemmas", \
+"Section",
+ CellChangeTimes->{{3.8713829840911713`*^9, 3.871382989885779*^9}, {
+  3.871383097198255*^9, 3.871383109472487*^9}, {3.871383326862706*^9, 
+  3.8713833808344088`*^9}, {3.871426734155431*^9, 3.871426735236566*^9}, {
+  3.871993556107719*^9, 
+  3.8719935809500523`*^9}},ExpressionUUID->"47b43857-58c2-4fa2-b265-\
+428f10ab71de"],
+
+Cell[CellGroupData[{
+
+Cell["Due Friday, Sep. 16 (beginning of class)", "Subtitle",
+ CellChangeTimes->{{3.871430751344658*^9, 3.871430776838911*^9}, {
+  3.8719935421166697`*^9, 3.871993550674225*^9}, {3.87199378491018*^9, 
+  3.871993808590932*^9}},
+ FontSize->16,
+ FontSlant->"Italic",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+
+Cell["1. ", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9},ExpressionUUID->"2df20ea7-e6bb-498b-ac19-\
+79575d6fe122"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{-1623, Automatic}, {Automatic, 51}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fdb56f20-f88b-4f34-a223-df27a3586917"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 413, 7, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
+Cell[CellGroupData[{
+Cell[996, 31, 317, 5, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+Cell[1316, 38, 175, 3, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"]
+}, Open  ]]
+}
+]
+*)
+
