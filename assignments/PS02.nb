@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2133,         64]
-NotebookOptionsPosition[      1507,         44]
-NotebookOutlinePosition[      1957,         62]
-CellTagsIndexPosition[      1914,         59]
+NotebookDataLength[     16420,        385]
+NotebookOptionsPosition[     14475,        343]
+NotebookOutlinePosition[     14927,        361]
+CellTagsIndexPosition[     14884,        358]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -36,13 +36,312 @@ Cell["Due Friday, Sep. 16 (beginning of class)", "Subtitle",
  FontSize->16,
  FontSlant->"Italic",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
 
-Cell["1. ", "Subsection",
+Cell[TextData[{
+ "In our readings so far (through Thursday, Sep. 15), Newton (1) defined \
+things such as ",
+ StyleBox["quantity of motion",
+  FontWeight->"Bold"],
+ " and quantity of impressed force. Then having made these definitions, he \
+has (2) introduced his ",
+ StyleBox["Three Laws of Motion",
+  FontWeight->"Bold"],
+ ", then (3) explained ",
+ StyleBox["addition of forces",
+  FontWeight->"Bold"],
+ " and the motion resulting from such addition, (4) defined ",
+ StyleBox["center of mass",
+  FontWeight->"Bold"],
+ " and described its motion and argued that forces among the bodies in a \
+system do not alter the motion of the center of mass, and finally, (5) begun \
+computing the ",
+ StyleBox["area under a curve",
+  FontWeight->"Bold"],
+ ". This second problem set creates a concrete example for each of these \
+topics."
+}], "Subtitle",
+ CellChangeTimes->{{3.871430751344658*^9, 3.871430776838911*^9}, {
+  3.8719935421166697`*^9, 3.871993550674225*^9}, {3.87199378491018*^9, 
+  3.871993808590932*^9}, {3.871998228766705*^9, 3.871998783368834*^9}, {
+  3.871999381309264*^9, 3.87199938246873*^9}},
+ FontSize->16,
+ FontSlant->"Italic",ExpressionUUID->"43bcd7bf-6056-43ad-8cd4-9fd581c1fb60"],
+
+Cell[CellGroupData[{
+
+Cell["1. Quantity of Motion", "Subsection",
  CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
-   3.87199382472436*^9},ExpressionUUID->"2df20ea7-e6bb-498b-ac19-\
-79575d6fe122"]
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 
+   3.8719988089823017`*^9}},ExpressionUUID->"2df20ea7-e6bb-498b-ac19-\
+79575d6fe122"],
+
+Cell["\<\
+A cloud drifts lazily eastward from the Owens Valley toward Deep Springs. Its \
+speed is estimated by you as 5 muff.
+
+After crossing Westgard Pass, 10% of the water vapor in this cloud condenses \
+into droplets which then heads toward the valley floor at 25 muff.
+
+Compare the quantity of motion of the cloud drifting toward Deep Springs and \
+droplets headed toward the valley floor, proceeding directly from Newton\
+\[CloseCurlyQuote]s definition of the quantity of motion:
+
+Begin by quoting Newton\[CloseCurlyQuote]s one-sentence definition the \
+quantity of motion.\
+\>", "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+  3.871999266324009*^9, 
+  3.871999304415762*^9}},ExpressionUUID->"af54a7f5-1f43-4f10-98b9-\
+1a302e04b89e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. The Three Laws of Motion", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 
+   3.871999374919547*^9}},ExpressionUUID->"52661c49-a1ac-4d80-a70e-\
+4fbff6563b2c"],
+
+Cell["\<\
+Using Laws 2 and 3 and the definition of quantity of motion, determine what \
+will happen to the SUV in the following situation:
+
+A hay truck going west approaches an SUV going east. The hay truck weighs \
+(and therefore has quantity of mass) 20 times that of the SUV. Both vehicles \
+are going 60 muff.
+
+The driver of the SUV dozes off and glances the right front of the hay truck. \
+Following this, the SUV is going 50 muff eastward and 20 muff southward.
+
+(a) Compute the change in the quantity of motion of the SUV in the eastward \
+direction (final motion minus beginning motion \[LongDash] this will be \
+negative)
+(b) Compute the change in the quantity of motion of the SUV in the northward \
+direction (final motion minus beginning motion \[LongDash] also negative in \
+this direction for the SUV)
+(c) Deduce the change in the quantity of motion of the hay truck in the \
+eastward direction (you need your answer from (a) and to apply Law 3).
+(d) Deduce the change in the quantity of motion of the hay truck in the \
+northward direction (you need your answer from (b) and another application of \
+Law 3).
+(e) Using the quantity of mass of the hay truck vs. the SUV and the change in \
+the hay truck\[CloseCurlyQuote]s quantity of motion in the eastward \
+direction, how fast is it now traveling to the west? Always use final motion \
+minus beginning motion when calculating changes.\
+\>", "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+  3.871999266324009*^9, 3.871999304415762*^9}, {3.871999398231597*^9, 
+  3.872000124518915*^9}},ExpressionUUID->"8aa08017-bb20-432c-86a0-\
+9334b312756b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Addition of Forces", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.872000132226359*^9, 
+   3.872000142799943*^9}},ExpressionUUID->"a870ad93-0b19-405c-b55f-\
+bd6b008d181d"],
+
+Cell[TextData[{
+ "Draw your answers accurately, measuring lengths of vectors to accurately \
+modify them, and using a straight edge.\n\nIf the following two impressed \
+forces ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["F", "1"], " ", "and", " ", 
+    SubscriptBox["F", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cf873e4e-2b1e-49d5-b389-969c42c4b495"],
+ " result in the motion of a body as shown by the displacement ",
+ Cell[BoxData[
+  FormBox["d", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "28ba15b9-306d-4721-90e3-44fdcfb83b11"],
+ " (in some unspecified but given time period):"
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+  3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
+  3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
+  3.872003923177699*^9, 
+  3.872003926439913*^9}},ExpressionUUID->"fdd52042-c087-4c8d-922c-\
+ea5c228554fa"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TemplateBox[{
+     GraphicsBox[{
+       ArrowBox[{{-0.6181731330023866, 0.3226086086697051}, {
+        0.07072889539930627, 0.6356102837456601}}], 
+       ArrowBox[{{-0.6120368109809016, 
+        0.3238311767578126}, {-0.2353500366210921, 0.005025227864583481}}], 
+       ArrowBox[{{-0.6131278143988694, 0.32542572021484384`}, {
+        0.4540197584364173, 0.3166658189561633}}], 
+       InsetBox[
+        Cell[
+         TextData[
+          Cell[
+           BoxData[
+            FormBox[
+             SubscriptBox["F", "1"], TraditionalForm]], FormatType -> 
+           TraditionalForm]], GeneratedCell -> False, CellAutoOverwrite -> 
+         False, CellBaseline -> Baseline, TextAlignment -> 
+         Left], {-0.4299520704481331, 0.5472198486328119}, {Left, Top}, {
+        0.2110662672254774, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {-0.5057184855143229, 0.7542161729600694}, {Left, Baseline}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {-0.609761725531684, 0.8714789496527775}, {Left, Top}, {
+        0.33362308078342007`, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {-0.6251710679796006, -0.43638102213541696`}, {Left, Baseline}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {0.1593109130859376, -0.735730658637153}, {Left, Baseline}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {-0.19997567070855027`, -0.517469957139757}, {Left, Top}, {
+        0.6583056131998699, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+         TextData[
+          Cell[
+           BoxData[
+            FormBox[
+             SubscriptBox["F", "2"], TraditionalForm]], FormatType -> 
+           TraditionalForm]], GeneratedCell -> False, CellAutoOverwrite -> 
+         False, CellBaseline -> Baseline, TextAlignment -> 
+         Left], {-0.48815778096516793`, 0.11980455186631889`}, {Left, Top}, {
+        0.2110662672254774, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+         TextData[
+          Cell[
+           BoxData[
+            FormBox["d", TraditionalForm]], FormatType -> TraditionalForm]], 
+         GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
+         Baseline, TextAlignment -> Left], {-0.03412022060817921, 
+        0.2518914116753468}, {Left, Top}, {0.21125471327039932`, 
+        0.08870035807291667}, {{1., 0.}, {0., 1.}}, 
+        Alignment -> {Left, Top}]}, AspectRatio -> 0.628697092575611, 
+      DefaultBaseStyle -> {"CanvasGraphics"}, ImageMargins -> 0., 
+      ImagePadding -> {{0., 0.}, {0., 0.}}, 
+      ImageSize -> {350.30157470703125`, 220.23358154296875`}, 
+      PlotRange -> {{-1., 1.}, {-0.2573941851512225, 1.}}, PlotRangePadding -> 
+      None]}, "CanvasFrame"]},
+  "Canvas"]], "Input",
+ CellChangeTimes->{{3.872003146423561*^9, 3.872003197439591*^9}, {
+  3.87200322749338*^9, 3.872003347217803*^9}, {3.872003463922044*^9, 
+  3.8720035533310337`*^9}, {3.872003624964081*^9, 3.87200362873295*^9}, {
+  3.872003751942626*^9, 
+  3.872003753067705*^9}},ExpressionUUID->"5a54f995-8e79-4866-93aa-\
+d83cd0b210c7"],
+
+Cell[TextData[{
+ "(a) What motion will result if the impressed force ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["F", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "80d1ede8-a4b5-40e0-91c7-610dada927cd"],
+ " is doubled in magnitude?\n\n(b) If instead the forces remain the same as \
+originally specified but the mass of the body is halved, what will the motion \
+of the body be (in the same unspecified time period)?"
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+  3.872003561829097*^9, 3.872003579729658*^9}, {3.872003636416184*^9, 
+  3.872003748555502*^9}, {3.872003938657456*^9, 
+  3.872003942493436*^9}},ExpressionUUID->"f145e1e9-de42-46c7-8c5e-\
+1d44564e2618"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Center of Mass", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.872000132226359*^9, 3.872000142799943*^9}, {3.872003810025064*^9, 
+   3.8720038168878603`*^9}},ExpressionUUID->"1146bc5f-102f-4351-985f-\
+c88cb4f9a7b5"],
+
+Cell[TextData[{
+ "(a) Sun\[CloseCurlyQuote]s mass is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", " ", 
+    SuperscriptBox["10", "30"], "kg"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0a6cd2da-ac8c-4bab-83b0-6de9f07eff8d"],
+ ". The Jupiter\[CloseCurlyQuote]s mass is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.9", " ", 
+    SuperscriptBox["10", "27"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cc49dfce-7f35-43ac-8b5c-6e18d79ca233"],
+ "kg. Jupiter is 5.2 A.U. from the Sun. Where, along the line connecting Sun \
+and the Jupiter, does the center of mass of the Sun and Jupiter lie?\n(b) \
+Suppose the Jupiter was moving further from Sun such that after 1 year it was \
+now at 6 A.U. During this time it goes 1/12 of the way around the Sun. Draw \
+and describe the motion of the center of mass of Sun and the Jupiter.\n\n\
+Note: I deliberately put the definite article \[OpenCurlyDoubleQuote]the\
+\[CloseCurlyDoubleQuote] in oddball places in the preceding. Feel free to ask \
+me why."
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+   3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
+   3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
+   3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
+   3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
+   3.872004609027967*^9, 
+   3.872004704310175*^9},ExpressionUUID->"b0ad17e2-c18e-4534-b767-\
+da4916eafd64"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5. Area Under a Curve", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.872000132226359*^9, 3.872000142799943*^9}, {3.872003810025064*^9, 
+   3.8720038168878603`*^9}, {3.8720045921744967`*^9, 
+   3.8720046050905437`*^9}},ExpressionUUID->"bf3a1c85-c608-459c-a170-\
+194023d2ab96"],
+
+Cell[TextData[{
+ "Consider the curve ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    SuperscriptBox["x", "3"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c396606e-9d1b-4606-b52d-ece872f6777a"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+   3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
+   3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
+   3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
+   3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
+   3.872004609027967*^9, {3.872004644712726*^9, 
+   3.8720047307086973`*^9}},ExpressionUUID->"fe6068aa-35a8-4d62-84cc-\
+bb2995f43b79"]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{808, 911},
+WindowSize->{1334, 1226},
 WindowMargins->{{-1623, Automatic}, {Automatic, 51}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
@@ -64,7 +363,29 @@ Notebook[{
 Cell[558, 20, 413, 7, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
 Cell[CellGroupData[{
 Cell[996, 31, 317, 5, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
-Cell[1316, 38, 175, 3, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"]
+Cell[1316, 38, 1195, 28, 109, "Subtitle",ExpressionUUID->"43bcd7bf-6056-43ad-8cd4-9fd581c1fb60"],
+Cell[CellGroupData[{
+Cell[2536, 70, 294, 5, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"],
+Cell[2833, 77, 768, 17, 173, "Text",ExpressionUUID->"af54a7f5-1f43-4f10-98b9-1a302e04b89e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3638, 99, 402, 6, 54, "Subsection",ExpressionUUID->"52661c49-a1ac-4d80-a70e-4fbff6563b2c"],
+Cell[4043, 107, 1635, 30, 288, "Text",ExpressionUUID->"8aa08017-bb20-432c-86a0-9334b312756b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5715, 142, 446, 7, 54, "Subsection",ExpressionUUID->"a870ad93-0b19-405c-b55f-bd6b008d181d"],
+Cell[6164, 151, 991, 23, 81, "Text",ExpressionUUID->"fdd52042-c087-4c8d-922c-ea5c228554fa"],
+Cell[7158, 176, 3147, 69, 245, "Input",ExpressionUUID->"5a54f995-8e79-4866-93aa-d83cd0b210c7"],
+Cell[10308, 247, 732, 15, 81, "Text",ExpressionUUID->"f145e1e9-de42-46c7-8c5e-1d44564e2618"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11077, 267, 490, 7, 54, "Subsection",ExpressionUUID->"1146bc5f-102f-4351-985f-c88cb4f9a7b5"],
+Cell[11570, 276, 1536, 31, 150, "Text",ExpressionUUID->"b0ad17e2-c18e-4534-b767-da4916eafd64"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13143, 312, 548, 8, 54, "Subsection",ExpressionUUID->"bf3a1c85-c608-459c-a170-194023d2ab96"],
+Cell[13694, 322, 753, 17, 35, "Text",ExpressionUUID->"fe6068aa-35a8-4d62-84cc-bb2995f43b79"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
