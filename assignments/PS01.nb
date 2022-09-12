@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18169,        406]
-NotebookOptionsPosition[     16413,        366]
-NotebookOutlinePosition[     16863,        384]
-CellTagsIndexPosition[     16820,        381]
+NotebookDataLength[     18364,        411]
+NotebookOptionsPosition[     16607,        371]
+NotebookOutlinePosition[     17057,        389]
+CellTagsIndexPosition[     17014,        386]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -53,30 +53,35 @@ controversy.\[CloseCurlyDoubleQuote]\n\nSalviati ignores Simplicio and then \
 says something even stronger: he not only claims it is not how nature is, he \
 claims it is an impossible type of motion (p. 168). Galileo does not have \
 calculus at his disposal. We do, and we know the solution to the differential \
-equation v = \[Alpha] x exists and is x(t) = ",
+equation ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", " ", "=", " ", 
+    RowBox[{"\[Alpha]", "\[VeryThinSpace]", "x"}]}], TraditionalForm]],
+  InitializationCell->True,
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f3272fa4-b216-4317-b92b-f46e0b5f5c93"],
+ " exists and is x(t) = ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     RowBox[{"x", "(", "0", ")"}], 
     SuperscriptBox["e", 
      RowBox[{"\[Alpha]", "\[VeryThinSpace]", "t"}]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "58580784-7cc6-43b8-9abe-714ccfdaf5c9"],
+  ExpressionUUID->"58580784-7cc6-43b8-9abe-714ccfdaf5c9"],
  ". Below I have graphed this function for the time range 0 seconds to 1 \
 second, with ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["x", "0"], "=", 
-    RowBox[{"0.1", " ", "meters"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"0.1", " ", "meters"}]}], TraditionalForm]],ExpressionUUID->
   "85ba06ff-3f9f-44ab-b894-34e9a6eee4e9"],
  ", and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Alpha]", "=", 
-    RowBox[{"3", "/", "second"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"3", "/", "second"}]}], TraditionalForm]],ExpressionUUID->
   "f8793f2c-7410-4124-a24a-d5ac8e192dfc"],
  ". Is there anything completely unreasonable about this solution? In other \
 words, is Galileo wrong in saying it is an ",
@@ -91,8 +96,8 @@ believe. No matter what, your answer should reference this plot:"
   3.871427329879901*^9}, {3.87142737444771*^9, 3.871427704672248*^9}, {
   3.8714278479719*^9, 3.871427848489871*^9}, {3.87142838563575*^9, 
   3.8714284664835577`*^9}, {3.8714285006436567`*^9, 3.8714285091714973`*^9}, {
-  3.871430803231887*^9, 
-  3.87143091050137*^9}},ExpressionUUID->"64bb7e4b-076f-4358-97c8-\
+  3.871430803231887*^9, 3.87143091050137*^9}, {3.8719854595795317`*^9, 
+  3.871985475014822*^9}},ExpressionUUID->"64bb7e4b-076f-4358-97c8-\
 0684f0cc5c3d"],
 
 Cell[CellGroupData[{
@@ -388,29 +393,27 @@ Cell[CellGroupData[{
 Cell[908, 29, 219, 3, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
 Cell[CellGroupData[{
 Cell[1152, 36, 211, 4, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"],
-Cell[1366, 42, 2660, 53, 334, "Text",ExpressionUUID->"64bb7e4b-076f-4358-97c8-0684f0cc5c3d"],
+Cell[1366, 42, 2854, 58, 334, "Text",ExpressionUUID->"64bb7e4b-076f-4358-97c8-0684f0cc5c3d"],
 Cell[CellGroupData[{
-Cell[4051, 99, 799, 18, 30, "Input",ExpressionUUID->"8282f754-01e9-48c4-bb6d-da91448acece"],
-Cell[4853, 119, 3690, 79, 339, "Output",ExpressionUUID->"355119c1-d3f7-4b88-8ba9-a7a2150210c1"]
+Cell[4245, 104, 799, 18, 30, "Input",ExpressionUUID->"8282f754-01e9-48c4-bb6d-da91448acece"],
+Cell[5047, 124, 3690, 79, 339, "Output",ExpressionUUID->"355119c1-d3f7-4b88-8ba9-a7a2150210c1"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8592, 204, 243, 4, 54, "Subsection",ExpressionUUID->"6408f235-8853-458f-ab6a-57fde73b293e"],
-Cell[8838, 210, 1514, 23, 196, "Text",ExpressionUUID->"9c2af94f-f34b-429a-91d2-5f4a3783ba40"]
+Cell[8786, 209, 243, 4, 54, "Subsection",ExpressionUUID->"6408f235-8853-458f-ab6a-57fde73b293e"],
+Cell[9032, 215, 1514, 23, 196, "Text",ExpressionUUID->"9c2af94f-f34b-429a-91d2-5f4a3783ba40"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10389, 238, 414, 8, 54, "Subsection",ExpressionUUID->"cfe0f657-89c6-49d8-84d5-0aac64abf9a2"],
-Cell[10806, 248, 1599, 25, 150, "Text",ExpressionUUID->"382913ff-4e7f-41b4-8986-92e241236bd9"]
+Cell[10583, 243, 414, 8, 54, "Subsection",ExpressionUUID->"cfe0f657-89c6-49d8-84d5-0aac64abf9a2"],
+Cell[11000, 253, 1599, 25, 150, "Text",ExpressionUUID->"382913ff-4e7f-41b4-8986-92e241236bd9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12442, 278, 311, 4, 54, "Subsection",ExpressionUUID->"9542490c-b64d-4a36-bf9d-be7b00b0ee82"],
-Cell[12756, 284, 2974, 65, 294, "Text",ExpressionUUID->"00d4111d-2dbe-46ae-83b0-19b5de205369"]
+Cell[12636, 283, 311, 4, 54, "Subsection",ExpressionUUID->"9542490c-b64d-4a36-bf9d-be7b00b0ee82"],
+Cell[12950, 289, 2974, 65, 294, "Text",ExpressionUUID->"00d4111d-2dbe-46ae-83b0-19b5de205369"]
 }, Open  ]]
 }, Open  ]],
-Cell[15757, 353, 652, 11, 97, "Subtitle",ExpressionUUID->"9bd11946-55ff-4b50-8ed8-e14ac17e5592"]
+Cell[15951, 358, 652, 11, 97, "Subtitle",ExpressionUUID->"9bd11946-55ff-4b50-8ed8-e14ac17e5592"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
