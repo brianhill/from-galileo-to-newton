@@ -26,7 +26,7 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 ### Week 3 &mdash; Finish Newton's Definitions &mdash; Begin Book I Section I
 
 * Preparation for Tuesday, Sep. 13 (we begin meeting Tu/Th/Fr from 9:40-10:40) &mdash; Study pp. 20-46 of the Densmore edition
-* Tuesday, Sep. 13 &mdash; [Solution to 1st Problem Set](./assignments/PS01-Solution.nb.pdf) &mdash; [2nd Problem Set -- FORTHCOMING](./assignments/PS02.nb.pdf) due Friday.
+* Tuesday, Sep. 13 &mdash; [Solution to 1st Problem Set](./assignments/PS01-Solution.nb.pdf) &mdash; [2nd Problem Set](./assignments/PS02.nb.pdf) due Friday.
 * Preparation for Thursday, Sep. 15 &mdash; Study pp. 47-62 of the Densmore edition (Lemmas 1 to 3)
 * Preparation for Friday, Sep. 16 &mdash; Study pp. 62-71 of the Densmore edition (Lemmas 4 and 5)
 

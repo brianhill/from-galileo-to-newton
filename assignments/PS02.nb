@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     16420,        385]
-NotebookOptionsPosition[     14475,        343]
-NotebookOutlinePosition[     14927,        361]
-CellTagsIndexPosition[     14884,        358]
+NotebookDataLength[     31845,        752]
+NotebookOptionsPosition[     29577,        705]
+NotebookOutlinePosition[     30029,        723]
+CellTagsIndexPosition[     29986,        720]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -325,19 +325,381 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"y", "=", 
-    SuperscriptBox["x", "3"]}], TraditionalForm]],
+    SuperscriptBox["x", "2"]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "c396606e-9d1b-4606-b52d-ece872f6777a"],
- "."
+ " in the region ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c342ab46-796c-433a-b5ff-db1b4433c50c"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "3"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f5606c35-2d29-492e-84de-4af814a3169f"],
+ ":"
 }], "Text",
  CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
    3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
    3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
    3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
    3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
-   3.872004609027967*^9, {3.872004644712726*^9, 
-   3.8720047307086973`*^9}},ExpressionUUID->"fe6068aa-35a8-4d62-84cc-\
-bb2995f43b79"]
+   3.872004609027967*^9, {3.872004644712726*^9, 3.8720047307086973`*^9}, {
+   3.872004954886307*^9, 3.8720049671496468`*^9}, {3.8720067578401947`*^9, 
+   3.872006757886958*^9}, {3.872015448732436*^9, 3.872015450959762*^9}, {
+   3.872017148493696*^9, 
+   3.8720171490237913`*^9}},ExpressionUUID->"fe6068aa-35a8-4d62-84cc-\
+bb2995f43b79"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   SuperscriptBox["x", "2"], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", " ", "3"}], " ", "}"}], ",", " ", 
+   RowBox[{"PlotRange", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "9"}], "}"}]}], "}"}]}], ",", " ", 
+   RowBox[{"GridLines", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Range", "[", 
+       RowBox[{"0", ",", " ", "3", ",", " ", "0.1"}], "]"}], ",", 
+      RowBox[{"Range", "[", 
+       RowBox[{"0.5", ",", " ", "9", ",", " ", "0.5"}], "]"}]}], "}"}]}], ",",
+    " ", 
+   RowBox[{"GridLinesStyle", "->", "Medium"}], ",", " ", 
+   RowBox[{"Frame", "->", "True"}], ",", " ", 
+   RowBox[{"AspectRatio", "->", 
+    RowBox[{"18", "/", "30"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.872004868789768*^9, 3.872004901900455*^9}, {
+  3.872004970277062*^9, 3.872005002104699*^9}, {3.872005101913455*^9, 
+  3.87200514406773*^9}, {3.872005184366795*^9, 3.87200519569278*^9}, {
+  3.872005309672188*^9, 3.872005340468873*^9}, {3.872006763993615*^9, 
+  3.8720067723416147`*^9}, {3.872006819345488*^9, 3.872006827105567*^9}, {
+  3.872015110242571*^9, 3.8720151623935747`*^9}, {3.872015720422782*^9, 
+  3.872015732358214*^9}, {3.8720158588892517`*^9, 3.87201586248672*^9}, {
+  3.8720169139460907`*^9, 3.872016937839486*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"3a60091e-8d1c-4af2-8908-52591f31496d"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    TagBox[
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
+      1.], LineBox[CompressedData["
+1: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
+       "]]},
+     Annotation[#, "Charting`Private`Tag$12462#1"]& ]}, {}},
+  AspectRatio->NCache[
+    Rational[3, 5], 0.6],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{True, True}, {True, True}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{{0., 0.1, 0.2, 0.30000000000000004`, 0.4, 0.5, 
+    0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1., 1.1, 
+    1.2000000000000002`, 1.3, 1.4000000000000001`, 1.5, 1.6, 
+    1.7000000000000002`, 1.8, 1.9000000000000001`, 2., 2.1, 2.2, 
+    2.3000000000000003`, 2.4000000000000004`, 2.5, 2.6, 2.7, 
+    2.8000000000000003`, 2.9000000000000004`, 3.}, {0.5, 1., 1.5, 2., 2.5, 3.,
+     3.5, 4., 4.5, 5., 5.5, 6., 6.5, 7., 7.5, 8., 8.5, 9.}},
+  GridLinesStyle->Medium,
+  ImagePadding->All,
+  ImageSize->{571.4748840332031, Automatic},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 3.}, {0., 9.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.872006782243511*^9, 3.872006831387334*^9, 3.8720151385163307`*^9, 
+   3.8720151753439007`*^9, {3.87201572814501*^9, 3.8720157327562313`*^9}, 
+   3.872015862895071*^9, 3.872016938886334*^9, 3.872017060366057*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"6673d5ac-bfd4-47ae-935b-cc80a46dd853"]
+}, {2}]],
+
+Cell[TextData[{
+ "(a) What does each little square in this region represent in terms of area \
+(in other words, what is the product of its width and height)? Count them all \
+up. How many are there? Multiply by the individual area to get the \
+(approximate) total area?\n\n(b) Draw the quadrilaterals that fit under this \
+curve. The first three or so will be impossibly scrunched, but after that it \
+is doable. If you are not sure what I am looking for, as an example draw the \
+quadrilateral going from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "2.0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "54b441cd-35b5-49fd-b1e7-697976f35438"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "2.1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b99141df-add6-45cb-b013-0c9012fc39fe"],
+ " that is 4 high.\n\n(c) Symbolically, the width 0.1 we can write as ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox["\[CapitalDelta]x",
+    FontSlant->"Italic"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2dc4198e-ce46-451b-86c4-d754cccfdcd8"],
+ ". So we could have said that the quadrilateral going from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "2.0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dfa61f84-e60f-4e56-a9a6-7a27bb087192"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "2.1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9bd3abc6-be16-4d35-85fa-2d3a957901dd"],
+ ", and was 4 high went from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", 
+    RowBox[{"20", "\[VeryThinSpace]", 
+     StyleBox["\[CapitalDelta]x",
+      FontSlant->"Italic"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5ae4538f-7cb2-4c13-9f50-22a871a45a2f"],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{" ", 
+    FormBox[
+     RowBox[{"x", "=", 
+      RowBox[{"21", "\[VeryThinSpace]", 
+       StyleBox["\[CapitalDelta]x",
+        FontSlant->"Italic"]}]}],
+     TraditionalForm]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a56e4326-2e45-406a-9e9a-e3548e591425"],
+ " and was ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{" ", 
+     FormBox[
+      RowBox[{"(", 
+       RowBox[{"20", "\[VeryThinSpace]", "\[CapitalDelta]x"}]}],
+      TraditionalForm], ")"}], "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1290703f-627f-4b5c-90f5-f5b0dfdbab64"],
+ " high. So it is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{
+     RowBox[{"\[CapitalDelta]x", "\[CenterDot]", 
+      FormBox[
+       RowBox[{"(", 
+        RowBox[{"20", "\[VeryThinSpace]", "\[CapitalDelta]x"}]}],
+       TraditionalForm]}], ")"}], "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2c5dfe35-cf6b-4620-be77-17b9697991b7"],
+ " in area. If I say that was the 20th quadrilateral and let ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"k", "=", "20"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "785088ca-7d51-41a6-9030-b935d340cbd1"],
+ ", we see that its area is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{
+     SuperscriptBox["k", "2"], "(", 
+     StyleBox["\[CapitalDelta]x",
+      FontSlant->"Italic"], ")"}], "3"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4c91310d-63a9-434d-91ae-fd1d9731224d"],
+ ".\n\nSo the area is the sum of ",
+ Cell[BoxData[
+  FormBox[
+   FormBox[
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["k", "2"], "(", 
+      StyleBox["\[CapitalDelta]x",
+       FontSlant->"Italic"], ")"}], "3"],
+    TraditionalForm], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ddce2edc-d25a-43d0-8164-a889b4ab281e"],
+ " from 0 to 29. Actually, be somewhat more general than that: calculate the \
+sum of ",
+ Cell[BoxData[
+  FormBox[
+   FormBox[
+    SuperscriptBox[
+     RowBox[{
+      SuperscriptBox["k", "2"], "(", 
+      StyleBox["\[CapitalDelta]x",
+       FontSlant->"Italic"], ")"}], "3"],
+    TraditionalForm], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bd374c63-dfa3-43dc-9d7f-410975d68ea6"],
+ " from 0 to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", "-", "1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a90ed7c7-360b-4442-9c73-67f7375fa243"],
+ ". We know ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", "=", "30"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "032f81a9-0546-4c12-bb04-b07d2a56e417"],
+ ", but instead of plugging that in, leave it as a variable, and also replace \
+",
+ Cell[BoxData[
+  FormBox[
+   StyleBox["\[CapitalDelta]x",
+    FontSlant->"Italic"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d6faf5ea-c6a2-47b6-a1b4-2c143504fbb6"],
+ " by ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["3", "n"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ffe0d245-ad5a-4254-8299-fd7333247dd1"],
+ ", since if we divide the range 0 to 3 into ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9452d7d4-4be8-4eb4-a811-df838ba21d9b"],
+ " equal parts each of them is ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["3", "n"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "971acdea-4e1e-4ea9-aa0b-b492da4093be"],
+ " wide.\n\n(d) We left ",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1b009824-7868-453d-a835-6b7b84fe5d1a"],
+ " as a variable because the next thing Newton wants us to do is to take the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dd3eae4c-e43d-4596-9e1c-16064cc31b96"],
+ " limit of what you found in (c). You get six terms if you multiply out the \
+polynomial. Five of the six terms go to 0 as ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ea95a5f8-9dfd-469e-aa52-7df2af3e5b7f"],
+ ", so it is an easy limit to compute. Comment: your answer to (a) might not \
+agree very well to your answer to (d). That\[CloseCurlyQuote]s because it is \
+easy to underestimate the area in (a) due to the partial squares."
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+   3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
+   3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
+   3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
+   3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
+   3.872004609027967*^9, {3.872004644712726*^9, 3.8720047307086973`*^9}, {
+   3.872004954886307*^9, 3.8720049671496468`*^9}, {3.872005458110238*^9, 
+   3.872006003082286*^9}, {3.8720060359564238`*^9, 3.872006435198914*^9}, {
+   3.8720068855147543`*^9, 3.872007007295794*^9}, {3.8720157531134157`*^9, 
+   3.8720158326549053`*^9}, {3.8720158956405773`*^9, 3.872016405630423*^9}, {
+   3.872016544855236*^9, 3.872016648444776*^9}, {3.872016749076487*^9, 
+   3.872016895224448*^9}, {3.8720169706336393`*^9, 3.87201697162398*^9}, {
+   3.872017179659181*^9, 3.8720171802998962`*^9}, {3.872017219247998*^9, 
+   3.872017220058754*^9}, {3.872017255416767*^9, 
+   3.872017256333169*^9}},ExpressionUUID->"4d78ff1d-d81d-4645-bacc-\
+92f07eedd73c"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -384,7 +746,12 @@ Cell[11570, 276, 1536, 31, 150, "Text",ExpressionUUID->"b0ad17e2-c18e-4534-b767-
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[13143, 312, 548, 8, 54, "Subsection",ExpressionUUID->"bf3a1c85-c608-459c-a170-194023d2ab96"],
-Cell[13694, 322, 753, 17, 35, "Text",ExpressionUUID->"fe6068aa-35a8-4d62-84cc-bb2995f43b79"]
+Cell[13694, 322, 1310, 32, 35, "Text",ExpressionUUID->"fe6068aa-35a8-4d62-84cc-bb2995f43b79"],
+Cell[CellGroupData[{
+Cell[15029, 358, 1478, 33, 56, "Input",ExpressionUUID->"3a60091e-8d1c-4af2-8908-52591f31496d"],
+Cell[16510, 393, 5632, 108, 367, "Output",ExpressionUUID->"6673d5ac-bfd4-47ae-935b-cc80a46dd853"]
+}, {2}]],
+Cell[22154, 504, 7395, 197, 362, "Text",ExpressionUUID->"4d78ff1d-d81d-4645-bacc-92f07eedd73c"]
 }, Open  ]]
 }, Open  ]]
 }
