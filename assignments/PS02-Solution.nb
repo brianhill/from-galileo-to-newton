@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     15683,        372]
-NotebookOptionsPosition[     14030,        333]
-NotebookOutlinePosition[     14474,        351]
-CellTagsIndexPosition[     14431,        348]
+NotebookDataLength[     17116,        403]
+NotebookOptionsPosition[     15463,        364]
+NotebookOutlinePosition[     15907,        382]
+CellTagsIndexPosition[     15864,        379]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -173,32 +173,31 @@ Cell[BoxData[
            Cell[
             BoxData[
              FormBox[
-              SubscriptBox["F", "2"], TraditionalForm]], FormatType -> 
-            TraditionalForm], " is like a second application of ", 
+              SubscriptBox["F", "2"], TraditionalForm]]], 
+           " is like a second application of ", 
            Cell[
             BoxData[
              FormBox[
               SubscriptBox["F", 
-               RowBox[{"2", ","}]], TraditionalForm]], FormatType -> 
-            TraditionalForm], "so it goes to the lcoation shown."}], 
-         GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
-         Baseline, TextAlignment -> Left], {0.023109517435177862`, 
-        0.030083668545003606`}, {Left, Top}, {0.5322311731773918, 
-        0.3869262227600205}, {{1., 0.}, {0., 1.}}, Alignment -> {Left, Top}], 
-       
+               RowBox[{"2", ","}]], TraditionalForm]]], 
+           "so it goes to the lcoation shown."}], GeneratedCell -> False, 
+         CellAutoOverwrite -> False, CellBaseline -> Baseline, TextAlignment -> 
+         Left], {0.023109517435177862`, 0.030083668545003606`}, {Left, Top}, {
+        0.5322311731773918, 0.3869262227600205}, {{1., 0.}, {0., 1.}}, 
+        Alignment -> {Left, Top}], 
        ArrowBox[{{-0.096518165722702, 0.3231254573794265}, {
         0.7663690288866098, 0.3160921920396051}}], 
        GeometricTransformationBox[
         InsetBox[
          Cell[
          "(b) A halving of the mass results in a doubling of the speed (for \
-the same quantity of motion, so it goes to the location shown.", 
+the same quantity of motion), so it goes to the location shown.", 
           GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
           Baseline, TextAlignment -> Left], {0.4051100670484925, 
          0.6299983210456235}, {Left, Top}, {0.5322311731773918, 
          0.3869262227600205}, {{1., 0.}, {0., 1.}}, 
-         Alignment -> {Left, Top}], {{{{0.9999999999999999, 0.}, {0., 1.}}, {
-          0., 4.440892098500626*^-16}}}], 
+         Alignment -> {Left, Top}], {{{{0.9999999999999994, 0.}, {0., 1.}}, {
+          0., 2.220446049250313*^-15}}}], 
        StyleBox[
         InsetBox[
          Cell[
@@ -228,8 +227,8 @@ the same quantity of motion, so it goes to the location shown.",
   3.8720035533310337`*^9}, {3.872003624964081*^9, 3.87200362873295*^9}, {
   3.872003751942626*^9, 3.872003753067705*^9}, {3.87267888017188*^9, 
   3.8726791008199863`*^9}, {3.872679140563319*^9, 3.8726793175111103`*^9}, {
-  3.872694185872074*^9, 
-  3.872694213047868*^9}},ExpressionUUID->"5a54f995-8e79-4866-93aa-\
+  3.872694185872074*^9, 3.872694213047868*^9}, {3.872695432183599*^9, 
+  3.872695435203681*^9}},ExpressionUUID->"5a54f995-8e79-4866-93aa-\
 d83cd0b210c7"],
 
 Cell[TextData[{
@@ -283,10 +282,41 @@ Cell[TextData[{
    RowBox[{"1.9", " ", 
     SuperscriptBox["10", "27"]}], TraditionalForm]],ExpressionUUID->
   "e6b29144-61c4-4a60-80f1-53aea3d000c0"],
- "kg) = 0.0049 A.U. along the line.\n\n(b) Suppose the Jupiter was moving \
-further from Sun such that after 1 year it was now at 6 A.U. During this time \
-it goes 1/12 of the way around the Sun. Draw and describe the motion of the \
-center of mass of Sun and the Jupiter."
+ "kg) = 0.0049 A.U. along the line.\n\n(b) This was an incompletely described \
+question part. The issue is that I didn\[CloseCurlyQuote]t say whether the \
+Sun moves during this time. I was imagining that it did not move and I was \
+just trying to get you to calculate the motion of the center of mass of the \
+system.\n\nA perfectly good assumption would be that the Sun moves the \
+opposite direction in this same time, but reduced by the ratio of the Sun\
+\[CloseCurlyQuote]s mass to Jupiter\[CloseCurlyQuote]s mass, and that the \
+center of mass does not move at all.\n\nThe other perfectly good assumption \
+and answer (the one I had intended) would be to calculate 0 A.U. x ",
+ Cell[BoxData[
+  RowBox[{"2", " ", 
+   SuperscriptBox["10", "30"]}]],ExpressionUUID->
+  "ac2f3199-9406-4bff-8530-266de23168e1"],
+ " + 6 A.U. x ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.9", " ", 
+    SuperscriptBox["10", "27"]}], TraditionalForm]],ExpressionUUID->
+  "6f42100e-7a3c-4e05-9a34-dc0cba47ce6e"],
+ "kg / (",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", " ", 
+    SuperscriptBox["10", "30"]}], TraditionalForm]],ExpressionUUID->
+  "bba07d85-fc68-49da-aaff-38ec39d275c2"],
+ "kg + ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.9", " ", 
+    SuperscriptBox["10", "27"]}], TraditionalForm]],ExpressionUUID->
+  "3d08b51f-f7a4-4102-9b40-62eec0f978e3"],
+ "kg) = 0.0057 A.U. along the new line connecting the Sun and Jupiter, and \
+draw that the center of mass spirals outward to this new point. By the way, \
+the Sun is only 0.0046 A.U. in radius, so both the beginning and ending \
+center of mass are slightly outside the Sun\[CloseCurlyQuote]s surface."
 }], "Text",
  CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
    3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
@@ -294,8 +324,9 @@ center of mass of Sun and the Jupiter."
    3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
    3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
    3.872004609027967*^9, 3.872004704310175*^9, {3.872679334531829*^9, 
-   3.872679424686849*^9}, {3.872679467098138*^9, 
-   3.8726794978656693`*^9}},ExpressionUUID->"b0ad17e2-c18e-4534-b767-\
+   3.872679424686849*^9}, {3.872679467098138*^9, 3.8726794978656693`*^9}, {
+   3.872695514893545*^9, 3.872695639419507*^9}, {3.872695708650958*^9, 
+   3.87269590278896*^9}},ExpressionUUID->"b0ad17e2-c18e-4534-b767-\
 da4916eafd64"]
 }, Open  ]],
 
@@ -362,16 +393,16 @@ Cell[2831, 70, 1210, 22, 173, "Text",ExpressionUUID->"8aa08017-bb20-432c-86a0-93
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[4078, 97, 446, 7, 54, "Subsection",ExpressionUUID->"a870ad93-0b19-405c-b55f-bd6b008d181d"],
-Cell[4527, 106, 5843, 126, 359, "Input",ExpressionUUID->"5a54f995-8e79-4866-93aa-d83cd0b210c7"],
-Cell[10373, 234, 566, 13, 35, "Text",ExpressionUUID->"f145e1e9-de42-46c7-8c5e-1d44564e2618"]
+Cell[4527, 106, 5818, 125, 359, "Input",ExpressionUUID->"5a54f995-8e79-4866-93aa-d83cd0b210c7"],
+Cell[10348, 233, 566, 13, 35, "Text",ExpressionUUID->"f145e1e9-de42-46c7-8c5e-1d44564e2618"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10976, 252, 490, 7, 54, "Subsection",ExpressionUUID->"1146bc5f-102f-4351-985f-c88cb4f9a7b5"],
-Cell[11469, 261, 1552, 37, 104, "Text",ExpressionUUID->"b0ad17e2-c18e-4534-b767-da4916eafd64"]
+Cell[10951, 251, 490, 7, 54, "Subsection",ExpressionUUID->"1146bc5f-102f-4351-985f-c88cb4f9a7b5"],
+Cell[11444, 260, 3010, 69, 265, "Text",ExpressionUUID->"b0ad17e2-c18e-4534-b767-da4916eafd64"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13058, 303, 548, 8, 54, "Subsection",ExpressionUUID->"bf3a1c85-c608-459c-a170-194023d2ab96"],
-Cell[13609, 313, 393, 16, 242, "Text",ExpressionUUID->"f1fca283-9630-4194-af2a-cb10df1e56a4"]
+Cell[14491, 334, 548, 8, 54, "Subsection",ExpressionUUID->"bf3a1c85-c608-459c-a170-194023d2ab96"],
+Cell[15042, 344, 393, 16, 242, "Text",ExpressionUUID->"f1fca283-9630-4194-af2a-cb10df1e56a4"]
 }, Open  ]]
 }, Open  ]]
 }
