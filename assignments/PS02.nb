@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     31845,        752]
-NotebookOptionsPosition[     29577,        705]
-NotebookOutlinePosition[     30029,        723]
-CellTagsIndexPosition[     29986,        720]
+NotebookDataLength[     31215,        731]
+NotebookOptionsPosition[     28947,        684]
+NotebookOutlinePosition[     29399,        702]
+CellTagsIndexPosition[     29356,        699]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -512,33 +512,28 @@ is doable. If you are not sure what I am looking for, as an example draw the \
 quadrilateral going from ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"x", "=", "2.0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"x", "=", "2.0"}], TraditionalForm]],ExpressionUUID->
   "54b441cd-35b5-49fd-b1e7-697976f35438"],
  " to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"x", "=", "2.1"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"x", "=", "2.1"}], TraditionalForm]],ExpressionUUID->
   "b99141df-add6-45cb-b013-0c9012fc39fe"],
  " that is 4 high.\n\n(c) Symbolically, the width 0.1 we can write as ",
  Cell[BoxData[
   FormBox[
    StyleBox["\[CapitalDelta]x",
-    FontSlant->"Italic"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FontSlant->"Italic"], TraditionalForm]],ExpressionUUID->
   "2dc4198e-ce46-451b-86c4-d754cccfdcd8"],
  ". So we could have said that the quadrilateral going from ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"x", "=", "2.0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"x", "=", "2.0"}], TraditionalForm]],ExpressionUUID->
   "dfa61f84-e60f-4e56-a9a6-7a27bb087192"],
  " to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"x", "=", "2.1"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"x", "=", "2.1"}], TraditionalForm]],ExpressionUUID->
   "9bd3abc6-be16-4d35-85fa-2d3a957901dd"],
  ", and was 4 high went from ",
  Cell[BoxData[
@@ -546,8 +541,7 @@ quadrilateral going from ",
    RowBox[{"x", "=", 
     RowBox[{"20", "\[VeryThinSpace]", 
      StyleBox["\[CapitalDelta]x",
-      FontSlant->"Italic"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Italic"]}]}], TraditionalForm]],ExpressionUUID->
   "5ae4538f-7cb2-4c13-9f50-22a871a45a2f"],
  " to ",
  Cell[BoxData[
@@ -558,8 +552,7 @@ quadrilateral going from ",
       RowBox[{"21", "\[VeryThinSpace]", 
        StyleBox["\[CapitalDelta]x",
         FontSlant->"Italic"]}]}],
-     TraditionalForm]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     TraditionalForm]}], TraditionalForm]],ExpressionUUID->
   "a56e4326-2e45-406a-9e9a-e3548e591425"],
  " and was ",
  Cell[BoxData[
@@ -569,8 +562,7 @@ quadrilateral going from ",
      FormBox[
       RowBox[{"(", 
        RowBox[{"20", "\[VeryThinSpace]", "\[CapitalDelta]x"}]}],
-      TraditionalForm], ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      TraditionalForm], ")"}], "2"], TraditionalForm]],ExpressionUUID->
   "1290703f-627f-4b5c-90f5-f5b0dfdbab64"],
  " high. So it is ",
  Cell[BoxData[
@@ -581,14 +573,12 @@ quadrilateral going from ",
       FormBox[
        RowBox[{"(", 
         RowBox[{"20", "\[VeryThinSpace]", "\[CapitalDelta]x"}]}],
-       TraditionalForm]}], ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+       TraditionalForm]}], ")"}], "2"], TraditionalForm]],ExpressionUUID->
   "2c5dfe35-cf6b-4620-be77-17b9697991b7"],
  " in area. If I say that was the 20th quadrilateral and let ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"k", "=", "20"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"k", "=", "20"}], TraditionalForm]],ExpressionUUID->
   "785088ca-7d51-41a6-9030-b935d340cbd1"],
  ", we see that its area is ",
  Cell[BoxData[
@@ -597,8 +587,7 @@ quadrilateral going from ",
     RowBox[{
      SuperscriptBox["k", "2"], "(", 
      StyleBox["\[CapitalDelta]x",
-      FontSlant->"Italic"], ")"}], "3"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Italic"], ")"}], "3"], TraditionalForm]],ExpressionUUID->
   "4c91310d-63a9-434d-91ae-fd1d9731224d"],
  ".\n\nSo the area is the sum of ",
  Cell[BoxData[
@@ -609,8 +598,7 @@ quadrilateral going from ",
       SuperscriptBox["k", "2"], "(", 
       StyleBox["\[CapitalDelta]x",
        FontSlant->"Italic"], ")"}], "3"],
-    TraditionalForm], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    TraditionalForm], TraditionalForm]],ExpressionUUID->
   "ddce2edc-d25a-43d0-8164-a889b4ab281e"],
  " from 0 to 29. Actually, be somewhat more general than that: calculate the \
 sum of ",
@@ -622,63 +610,53 @@ sum of ",
       SuperscriptBox["k", "2"], "(", 
       StyleBox["\[CapitalDelta]x",
        FontSlant->"Italic"], ")"}], "3"],
-    TraditionalForm], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    TraditionalForm], TraditionalForm]],ExpressionUUID->
   "bd374c63-dfa3-43dc-9d7f-410975d68ea6"],
  " from 0 to ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"n", "-", "1"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"n", "-", "1"}], TraditionalForm]],ExpressionUUID->
   "a90ed7c7-360b-4442-9c73-67f7375fa243"],
  ". We know ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"n", "=", "30"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"n", "=", "30"}], TraditionalForm]],ExpressionUUID->
   "032f81a9-0546-4c12-bb04-b07d2a56e417"],
  ", but instead of plugging that in, leave it as a variable, and also replace \
 ",
  Cell[BoxData[
   FormBox[
    StyleBox["\[CapitalDelta]x",
-    FontSlant->"Italic"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FontSlant->"Italic"], TraditionalForm]],ExpressionUUID->
   "d6faf5ea-c6a2-47b6-a1b4-2c143504fbb6"],
  " by ",
  Cell[BoxData[
   FormBox[
-   FractionBox["3", "n"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   FractionBox["3", "n"], TraditionalForm]],ExpressionUUID->
   "ffe0d245-ad5a-4254-8299-fd7333247dd1"],
  ", since if we divide the range 0 to 3 into ",
  Cell[BoxData[
-  FormBox["n", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["n", TraditionalForm]],ExpressionUUID->
   "9452d7d4-4be8-4eb4-a811-df838ba21d9b"],
  " equal parts each of them is ",
  Cell[BoxData[
   FormBox[
-   FractionBox["3", "n"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   FractionBox["3", "n"], TraditionalForm]],ExpressionUUID->
   "971acdea-4e1e-4ea9-aa0b-b492da4093be"],
  " wide.\n\n(d) We left ",
  Cell[BoxData[
-  FormBox["n", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["n", TraditionalForm]],ExpressionUUID->
   "1b009824-7868-453d-a835-6b7b84fe5d1a"],
  " as a variable because the next thing Newton wants us to do is to take the ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],ExpressionUUID->
   "dd3eae4c-e43d-4596-9e1c-16064cc31b96"],
- " limit of what you found in (c). You get six terms if you multiply out the \
-polynomial. Five of the six terms go to 0 as ",
+ " limit of what you found in (c). You get several terms if you multiply out \
+the polynomial. Most of the terms go to 0 as ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"n", "->", "\[Infinity]"}], TraditionalForm]],ExpressionUUID->
   "ea95a5f8-9dfd-469e-aa52-7df2af3e5b7f"],
  ", so it is an easy limit to compute. Comment: your answer to (a) might not \
 agree very well to your answer to (d). That\[CloseCurlyQuote]s because it is \
@@ -697,8 +675,9 @@ easy to underestimate the area in (a) due to the partial squares."
    3.872016544855236*^9, 3.872016648444776*^9}, {3.872016749076487*^9, 
    3.872016895224448*^9}, {3.8720169706336393`*^9, 3.87201697162398*^9}, {
    3.872017179659181*^9, 3.8720171802998962`*^9}, {3.872017219247998*^9, 
-   3.872017220058754*^9}, {3.872017255416767*^9, 
-   3.872017256333169*^9}},ExpressionUUID->"4d78ff1d-d81d-4645-bacc-\
+   3.872017220058754*^9}, {3.872017255416767*^9, 3.872017256333169*^9}, {
+   3.8726949915330477`*^9, 
+   3.872695000380725*^9}},ExpressionUUID->"4d78ff1d-d81d-4645-bacc-\
 92f07eedd73c"]
 }, Open  ]]
 }, Open  ]]
@@ -751,7 +730,7 @@ Cell[CellGroupData[{
 Cell[15029, 358, 1478, 33, 56, "Input",ExpressionUUID->"3a60091e-8d1c-4af2-8908-52591f31496d"],
 Cell[16510, 393, 5632, 108, 367, "Output",ExpressionUUID->"6673d5ac-bfd4-47ae-935b-cc80a46dd853"]
 }, {2}]],
-Cell[22154, 504, 7395, 197, 362, "Text",ExpressionUUID->"4d78ff1d-d81d-4645-bacc-92f07eedd73c"]
+Cell[22154, 504, 6765, 176, 362, "Text",ExpressionUUID->"4d78ff1d-d81d-4645-bacc-92f07eedd73c"]
 }, Open  ]]
 }, Open  ]]
 }

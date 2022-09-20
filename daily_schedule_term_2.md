@@ -32,8 +32,9 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 
 ### Week 4 &mdash; Conclude Book I Section I
 
-* Preparation for Tuesday, Sep. 20 &mdash; Study pp. 72-94 of the Densmore edition (Lemmas 6 to 8)
-* Preparation for Thursday, Sep. 22 &mdash; Study pp. 94-109 of the Densmore edition (Lemmas 9 to 11)
-* Preparation for Friday, Sep. 23 &mdash; Study pp. 110-121 of the Densmore edition (Conclude the Lemmas)
+* Preparation for Tuesday, Sep. 20 &mdash; Study pp. 72-94, Lemmas 6 to 8
+* Tuesday, Sep. 20 &mdash; Discussion focused on Lemmas 6 and 7, especially on the construction in Lemma 7 &mdash; [Solution to 2nd Problem Set](./assignments/PS02-Solution.nb.pdf)
+* Preparation for Thursday, Sep. 22 &mdash; Study Lemmas 9 to 10
+* Preparation for Friday, Sep. 23 &mdash; Conclude Book I Section I Lemmas
 
 ### Week 5 &mdash; Begin Book II Section II
