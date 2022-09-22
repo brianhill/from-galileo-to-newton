@@ -1,0 +1,734 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     29798,        726]
+NotebookOptionsPosition[     27972,        687]
+NotebookOutlinePosition[     28424,        705]
+CellTagsIndexPosition[     28381,        702]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Newton \[LongDash] Problem Set 3 \[LongDash] The Next Six Lemmas", \
+"Section",
+ CellChangeTimes->{{3.8713829840911713`*^9, 3.871382989885779*^9}, {
+  3.871383097198255*^9, 3.871383109472487*^9}, {3.871383326862706*^9, 
+  3.8713833808344088`*^9}, {3.871426734155431*^9, 3.871426735236566*^9}, {
+  3.871993556107719*^9, 3.8719935809500523`*^9}, {3.8728056512477818`*^9, 
+  3.872805651259981*^9}, {3.872812014433754*^9, 
+  3.872812017078323*^9}},ExpressionUUID->"47b43857-58c2-4fa2-b265-\
+428f10ab71de"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Due Tuesday, Sep. 27 (beginning of class). These are modern problems to \
+illustrate, with specific figures that we can analyze with algebra, and \
+specific values to plug in to the algebra, the meaning and validity of some \
+of Newton\[CloseCurlyQuote]s lemmas.
+
+You will be working with small quantities. The only way it will be convincing \
+that Newton is right about what is happening to these small quantities is to \
+be quite careful both in keeping plenty of decimal places around when doing \
+calculations, and in being accurate when making graphs.\
+\>", "Subtitle",
+ CellChangeTimes->{{3.871430751344658*^9, 3.871430776838911*^9}, {
+  3.8719935421166697`*^9, 3.871993550674225*^9}, {3.87199378491018*^9, 
+  3.871993808590932*^9}, {3.8728056558618107`*^9, 3.872805659833741*^9}, {
+  3.8728057130230207`*^9, 3.872805729751042*^9}, {3.872812032652453*^9, 
+  3.872812163700108*^9}, {3.8728123593993397`*^9, 3.8728124932521267`*^9}, {
+  3.872812773150778*^9, 3.872812774253824*^9}},
+ FontSize->16,
+ FontSlant->"Italic",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+1. Lemma 7 Example: Equality of Sine, Tangent, and Arc Length of a Circle, in \
+the Limit\
+\>", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.872805763207642*^9, 
+   3.87280579211987*^9}, {3.872808305999755*^9, 3.872808308227614*^9}, {
+   3.872812244300688*^9, 
+   3.872812260740779*^9}},ExpressionUUID->"2df20ea7-e6bb-498b-ac19-\
+79575d6fe122"],
+
+Cell[TextData[{
+ "The circle has circumference ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e72940b2-edaa-4996-9b9c-87cab9b6f1af"],
+ ", and if you measure angles in radians, the arc length of a wedge of a \
+circle is simply ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f9b4f4ce-230c-45be-b79b-a63b9013e84f"],
+ ". There are by definition of the radian ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "\[Pi]"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f92f3032-0b4d-4a5a-8c3c-481c718c82e7"],
+ " radians in a full circle. There are by definition of the degree 360\.ba in \
+a full circle. Because ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"2", "\[Pi]", " ", "radians"}], " ", "=", " ", 
+    RowBox[{"360", "\.ba"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "929ad9aa-7f02-4987-ba72-936b6d2647fb"],
+ ", you have a conversion factor between these two ways of measuring angles. \
+These facts are fundamental. We are going to be working in radians. The \
+attractiveness of the unfamiliar unit of radians is so that the arc length of \
+a wedge of a circle is simply ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "\[VeryThinSpace]", "r"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0db23d7c-db29-42cb-8b6d-d49ec7bad68b"],
+ ". If you work in degrees, then the arc length is the messier ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "\[VeryThinSpace]", "r", 
+    FractionBox[
+     RowBox[{"2", "\[Pi]"}], 
+     RowBox[{"360", "\.ba"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d8ad86f1-c2d6-4a32-b71d-b004499ba219"],
+ ".\n\nIn the following picture of a circle, we have \
+Newton\[CloseCurlyQuote]s Lemma 7 labels applied to a circle. ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox["R",
+    FontSlant->"Plain"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5c728748-2970-4f53-b791-52994b3d12ec"],
+ " is the center of the circle. A is a tangent to the circle. D is the place \
+on the tangent where the radius RB would hit the tangent if it were extended. \
+We also have \[Theta], the angle of ARB."
+}], "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+  3.871999266324009*^9, 3.871999304415762*^9}, {3.872805800489046*^9, 
+  3.8728061100938663`*^9}, {3.872806163472269*^9, 3.872806303765724*^9}, {
+  3.872807215918593*^9, 3.872807365675857*^9}, {3.872809667687543*^9, 
+  3.8728096705225353`*^9}, {3.8728125799448757`*^9, 3.872812716643023*^9}, {
+  3.8728134269408817`*^9, 
+  3.872813430540576*^9}},ExpressionUUID->"af54a7f5-1f43-4f10-98b9-\
+1a302e04b89e"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TemplateBox[{
+     GraphicsBox[{{
+        AbsoluteDashing[None], 
+        LineBox[{{-0.02712436252170125, -0.0010348849826389284`}, {
+         0.7764316134982645, -0.003068033854166874}}]}, 
+       CircleBox[{-0.020923105875650938`, 0.00463629828559009}, {
+        0.0003495110405817847, 0.}], 
+       CircleBox[{-0.03340674506293384, 0.00006408691406223355}, 
+        0.8113454009263741], {
+        AbsoluteDashing[None], 
+        LineBox[{{-0.029133012559678706`, 0.00015462239583330373`}, {
+         0.6294833713107644, 0.4566335042317706}}]}, {
+        AbsoluteDashing[None], 
+        LineBox[{{0.7864264921009751, 0.9143895263238505}, {
+         0.7829816703339297, -0.8570047810439031}}]}, 
+       InsetBox[
+        Cell[
+        "R", GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
+         Baseline, TextAlignment -> 
+         Left], {-0.12376039293077246`, -0.044660441080729196`}, {
+        Left, Top}, {0.11117223103841156`, Automatic}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+       "", {-0.3620953877766926, 0.05422329372829848}, {Left, Top}, {
+        0.37364595201280393`, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+        StyleBox[
+         RowBox[{
+           Cell["", CellBaseline -> Baseline, TextAlignment -> Left], "B"}], 
+         Background -> GrayLevel[1.]], {0.5064116583930127, 
+        0.49472401936848964`}, {Left, Top}, {0.13973346286349828`, 
+        0.08333333333333334}, {{1., 0.}, {0., 1.}}, Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+        "A", GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
+         Baseline, TextAlignment -> Left], {0.8234998491075316, 
+        0.03403218587239554}, {Left, Top}, {0.11117223103841156`, Automatic}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+        "\[Theta]", GeneratedCell -> False, CellAutoOverwrite -> False, 
+         CellBaseline -> Baseline, TextAlignment -> Left], {
+        0.16887050204806964`, 0.09473707411024312}, {Left, Top}, {
+        0.05566991170247413, 0.08333333333333334}, {{1., 0.}, {0., 1.}}, 
+        Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+        "D", GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
+         Baseline, TextAlignment -> Left], {0.8225089603000227, 
+        0.5883785671657984}, {Left, Top}, {0.11117223103841156`, Automatic}, 
+        Alignment -> {Left, Top}]}, DefaultBaseStyle -> {"CanvasGraphics"}, 
+      ImagePadding -> {{0., 0.}, {0., 0.}}, 
+      ImageSize -> {251.74612426757812`, Automatic}, 
+      PlotRange -> {{-1., 1.}, {-1., 1.}}, PlotRangePadding -> Automatic]}, 
+    "CanvasFrame"]},
+  "Canvas"]], "Input",
+ CellChangeTimes->{{3.8728069047697077`*^9, 
+  3.8728072044943333`*^9}},ExpressionUUID->"58e9ee3f-49a9-4d8c-97f3-\
+a59d114e77c5"],
+
+Cell[TextData[{
+ "\n(a) Assume the circle has radius 1 for convenience. If \[Theta] is \
+measured in radians, what is the arc length AB? Using standard trig \
+functions, what is the length AD? \n\n(b) Using standard trig functions, what \
+is the chord AB? This part is tricky!! Perhaps redrawing the diagram like \
+this gives you a hint of how to get a formula for that chord length",
+ StyleBox[" (whispers: bisect \[Theta])",
+  FontSize->9],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+  3.871999266324009*^9, 3.871999304415762*^9}, {3.872805800489046*^9, 
+  3.8728061100938663`*^9}, {3.872806163472269*^9, 3.872806303765724*^9}, {
+  3.872807215918593*^9, 3.872807505304475*^9}, {3.872807588600668*^9, 
+  3.872807642890663*^9}, {3.872807786493313*^9, 3.872807857332095*^9}, {
+  3.872809673311997*^9, 3.872809674099401*^9}, {3.872812183191153*^9, 
+  3.8728121843808603`*^9}},ExpressionUUID->"276df5dc-6f6a-4548-9086-\
+a28f5ceff15f"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TemplateBox[{
+     GraphicsBox[{{
+        AbsoluteDashing[None], 
+        LineBox[{{-0.027751089497616115`, -0.002883730880615178}, {
+         0.7375465496913424, -0.24788549361619328`}}]}, 
+       GeometricTransformationBox[
+        CircleBox[{-0.020923105875650938`, 0.00463629828559009}, {
+         0.0003495110405817847, 
+         0.}], {{{{0.9531540548039535, 
+          0.30248528527976726`}, {-0.30248528527976726`, 
+          0.9531540548039535}}, {-0.0015843558968791083`, \
+-0.010102046598565728`}}}], 
+       GeometricTransformationBox[
+        CircleBox[{-0.03340674506293384, 0.00006408691406223355}, 
+         0.8113454009263741], {{{{0.9531540548039535, 
+          0.30248528527976726`}, {-0.30248528527976726`, 
+          0.9531540548039535}}, {-0.0015843558968791083`, \
+-0.010102046598565728`}}}], {
+        AbsoluteDashing[None], 
+        LineBox[{{-0.029305833947276882`, -0.001142360019840324}, {
+         0.7365351876954858, 0.23473057236947842`}}]}, 
+       GeometricTransformationBox[
+        InsetBox[
+        "", {-0.3620953877766926, 0.05422329372829848}, {Left, Top}, {
+         0.37364595201280393`, Automatic}, 
+         Alignment -> {Left, Top}], {{{{0.9531540548039535, 
+          0.30248528527976726`}, {-0.30248528527976726`, 
+          0.9531540548039535}}, {-0.0015843558968791083`, \
+-0.010102046598565728`}}}], 
+       GeometricTransformationBox[
+        InsetBox[
+         StyleBox[
+          RowBox[{
+            Cell["", CellBaseline -> Baseline, TextAlignment -> Left], "B"}], 
+          Background -> GrayLevel[1.]], {0.5064116583930127, 
+         0.49472401936848964`}, {Left, Top}, {0.13973346286349828`, 
+         0.08333333333333334}, {{1., 0.}, {0., 1.}}, 
+         Alignment -> {Left, Top}], {{{{0.998979167681734, 
+          0.045173250247358826`}, {-0.045173250247358826`, 
+          0.998979167681734}}, {0.08858473125047814, -0.1791468161572437}}}], 
+       
+       GeometricTransformationBox[
+        InsetBox[
+         Cell[
+         "\[Theta]", GeneratedCell -> False, CellAutoOverwrite -> False, 
+          CellBaseline -> Baseline, TextAlignment -> Left], {
+         0.16887050204806964`, 0.09473707411024312}, {Left, Top}, {
+         0.05566991170247413, 0.08333333333333334}, {{1., 0.}, {0., 1.}}, 
+         Alignment -> {Left, Top}], {{{{0.6371323437363456, 
+          0.10243913190168244`}, {-0.0448165106656004, 1.456322306879916}}, {
+          0.046175762716949044`, -0.0833556270545979}}}], 
+       InsetBox[
+       "", {0.8225089603000232, 0.5883785671657984}, {Left, Top}, {
+        0.11117223103841156`, Automatic}, Alignment -> {Left, Top}], 
+       InsetBox[
+        Cell[
+        "A", GeneratedCell -> False, CellAutoOverwrite -> False, CellBaseline -> 
+         Baseline, TextAlignment -> Left], {
+        0.7844190385606558, -0.22946743435329875`}, {Left, Top}, {
+        0.11117223103841156`, Automatic}, Alignment -> {Left, Top}]}, 
+      DefaultBaseStyle -> {"CanvasGraphics"}, 
+      ImagePadding -> {{0., 0.}, {0., 0.}}, 
+      ImageSize -> {261.2694396972656, Automatic}, 
+      PlotRange -> {{-1., 1.}, {-1., 1.}}, PlotRangePadding -> Automatic]}, 
+    "CanvasFrame"]},
+  "Canvas"]], "Input",
+ CellChangeTimes->{{3.8728069047697077`*^9, 3.8728072044943333`*^9}, {
+  3.872807657413434*^9, 
+  3.8728077619354467`*^9}},ExpressionUUID->"d67d2b34-3e5f-4cfa-b215-\
+f3578447b334"],
+
+Cell[TextData[{
+ "(c) You now have a formula for the chord, the arc length, and the tangent. \
+Get a calculator, make sure it is in radians mode (because one of the three \
+formulas requires radians), and compare these three quantities for 1 radian, \
+0.1 radian, and 0.01 radian. They should tend toward one another for small \
+\[Theta] if Newton is right.\n\n",
+ StyleBox["NB: Of course they all tend to zero as \[Theta]  goes to zero, \
+that isn\[CloseCurlyQuote]t what Newton was getting at, and it isn\
+\[CloseCurlyQuote]t signficant to just notice they are all tending to zero. \
+What is significant and convincing, and what your comparisons should show is \
+that the ratios tend to unity.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+  3.871999266324009*^9, 3.871999304415762*^9}, {3.872805800489046*^9, 
+  3.8728061100938663`*^9}, {3.872806163472269*^9, 3.872806303765724*^9}, {
+  3.872807215918593*^9, 3.872807505304475*^9}, {3.872807588600668*^9, 
+  3.872807642890663*^9}, {3.872807786493313*^9, 3.872807884150497*^9}, {
+  3.87280793212013*^9, 3.872808210580267*^9}, {3.872813150436208*^9, 
+  3.87281324974126*^9}},ExpressionUUID->"7c72865b-3f23-4dba-8ab4-\
+151789b4ed25"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" 2. Arc Lengths and Chord Lengths of Parabolas", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.8728060081467876`*^9, 3.872806009810421*^9}, 3.8728082339229393`*^9, {
+   3.87280828229716*^9, 
+   3.8728082968195333`*^9}},ExpressionUUID->"530ae7ba-faa1-4875-bbaa-\
+f35d9a2ab6bc"],
+
+Cell[TextData[{
+ "From ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "215a42a6-0dcb-4b2d-a6c1-8489f273f645"],
+ " to the point ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"a", ",", " ", 
+     SuperscriptBox["a", "2"]}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c6d98a7a-560b-41be-82e9-3a8aa7d45ed8"],
+ " on the parabola ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"y", "=", 
+    SuperscriptBox["x", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e20676c1-00a6-4ba7-b86c-48583fcef597"],
+ " the arc length is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox["1", "2"], "a", " ", 
+     SqrtBox[
+      RowBox[{"1", "+", 
+       RowBox[{"4", 
+        SuperscriptBox["a", "2"]}]}]]}], " ", "+", " ", 
+    RowBox[{
+     FractionBox["1", "4"], 
+     RowBox[{"ln", "(", 
+      RowBox[{
+       RowBox[{"2", "a"}], " ", "+", 
+       SqrtBox[
+        RowBox[{" ", 
+         RowBox[{"1", " ", "+", " ", 
+          RowBox[{"4", 
+           SuperscriptBox["a", "2"]}]}]}]]}], ")"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c1515481-241b-43da-a232-0a4c689c3fa1"],
+ ".\n\nThis is a little-known formula (at least I had never heard of it). I \
+got it by doing a web search which yielded: \
+https://www.math.drexel.edu/~tolya/arc_length_x^2.pdf. We are just going to \
+use this parabolic arc length formula.\n\n(a) What is the chord length from \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4328658f-5fe6-49a4-b73a-927d5c4cc9f3"],
+ " to the point ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"a", ",", " ", 
+     SuperscriptBox["a", "2"]}], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7e595858-bc65-49a6-b088-d96ae4092575"],
+ "? (This only requires the Pythagorean theorem.)\n\n(b) Compare the chord \
+length and the arc length for a = 3, a = 1, and a = 1/3. The same note about \
+what is significant and convincing following 1(c) applies here."
+}], "Text",
+ CellChangeTimes->{{3.871998863318102*^9, 3.871999146489176*^9}, {
+   3.871999266324009*^9, 3.871999304415762*^9}, {3.871999398231597*^9, 
+   3.872000124518915*^9}, 3.872808354372817*^9, {3.872808404131598*^9, 
+   3.872808420562211*^9}, {3.872808476568033*^9, 3.8728087173229303`*^9}, {
+   3.872808808569398*^9, 3.872808933041851*^9}, {3.872812280673292*^9, 
+   3.87281228987952*^9}, {3.872812925117015*^9, 3.872812960062441*^9}, {
+   3.872813275469741*^9, 
+   3.872813356504698*^9}},ExpressionUUID->"f341c523-7ec3-4601-98ca-\
+061d24600728"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Lemma 8 applied to Circles", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.872000132226359*^9, 3.872000142799943*^9}, {3.872809440811529*^9, 
+   3.872809475560975*^9}},ExpressionUUID->"a870ad93-0b19-405c-b55f-\
+bd6b008d181d"],
+
+Cell["\<\
+In Lemma 8, Newton is talking about areas. We can calculate these areas in \
+the case of a circle, much as we calculated chord lengths in Problem 1.
+
+(a) What is the area of the \[OpenCurlyDoubleQuote]triangle\
+\[CloseCurlyDoubleQuote] bounded by RA, RB, and the arc AB? What is the area \
+of the triangle bounded by RA, RD, and AD?
+
+(b) What is the area of the triangle bounded by RA, RB, and the chord AB? \
+This could get sticky.
+
+(c) Do the same thing as you did in 1(c) for these three areas.\
+\>", "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+  3.872003561829097*^9, 3.872003579729658*^9}, {3.872003636416184*^9, 
+  3.872003748555502*^9}, {3.872003938657456*^9, 3.872003942493436*^9}, {
+  3.8728094936179123`*^9, 3.8728096175800962`*^9}, {3.872809691255351*^9, 
+  3.8728098034945307`*^9}, {3.872812228527522*^9, 3.8728122296649323`*^9}, {
+  3.872813087278841*^9, 
+  3.872813087320154*^9}},ExpressionUUID->"f145e1e9-de42-46c7-8c5e-\
+1d44564e2618"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Lemma 10 \[LongDash] An Example", "Subsection",
+ CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
+   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
+   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.8719993145407124`*^9, 
+   3.8719993200312843`*^9}, {3.8719993731760387`*^9, 3.871999374919547*^9}, {
+   3.872000132226359*^9, 3.872000142799943*^9}, {3.872003810025064*^9, 
+   3.8720038168878603`*^9}, {3.872810406601882*^9, 3.872810411708272*^9}, {
+   3.872811616326613*^9, 
+   3.872811624517172*^9}},ExpressionUUID->"1146bc5f-102f-4351-985f-\
+c88cb4f9a7b5"],
+
+Cell[TextData[{
+ "We know that for constant forces, the displacement caused by the force goes \
+as the square of the elapsed time. If you want to use modern terms, for a \
+constant force and a constant acceleration,  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "=", 
+    RowBox[{"F", "/", "m"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0ea6b630-a9ea-46a8-87ac-de8ebf5a8cf9"],
+ ", and d = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", "2"], "a", " ", 
+    SuperscriptBox["t", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "57fce3ec-323a-4f33-a799-4c17382335de"],
+ ".\n\nNewton says that it matters not that the force is constant!! He says \
+the displacement still goes as ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["t", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "71fedbf4-39ce-41c7-bc61-52aa96d34587"],
+ ". But only initially, meaning only in the limit of sufficiently small \
+times.\n\nOk, so let\[CloseCurlyQuote]s check on him with an example. Here is \
+a variable force: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"F", "(", "t", ")"}], "=", 
+    RowBox[{
+     SubscriptBox["F", "0"], "cos", "\[VeryThinSpace]", "\[Omega]", 
+     "\[VeryThinSpace]", "t"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4f35620b-946d-4d06-b6ec-6cdb29384e24"],
+ ". For a mass ",
+ Cell[BoxData[
+  FormBox["m", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8b54e967-30a8-4f87-8fd8-fbf77d8738dc"],
+ ", this results in an acceleration, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"a", "(", "t", ")"}], "=", 
+    RowBox[{
+     FractionBox[
+      SubscriptBox["F", "0"], "m"], "cos", "\[VeryThinSpace]", "\[Omega]", 
+     "\[VeryThinSpace]", "t"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "58bf5fcd-1f0a-4221-8bb4-af1486c2c5cb"],
+ ". I say that the resulting velocity is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"v", "(", "t", ")"}], "=", 
+    RowBox[{
+     FractionBox[
+      SubscriptBox["F", "0"], 
+      RowBox[{"m", "\[VeryThinSpace]", "\[Omega]"}]], "sin", 
+     "\[VeryThinSpace]", "\[Omega]", "\[VeryThinSpace]", "t"}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "38154e18-eee3-4b13-9712-bd048d23933e"],
+ ". For those whose calculus is fresh, you might want to quickly check that \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["\[DifferentialD]", 
+     RowBox[{"\[DifferentialD]", "t"}]], 
+    RowBox[{"v", "(", "t", ")"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2a8b2907-598d-4ae8-96d4-a623d23c3708"],
+ " is indeed ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "(", "t", ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7bb11238-450f-463d-a09b-bf9a4378d291"],
+ ". Furthermore, I say that the resulting displacement is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "t", ")"}], "=", 
+    RowBox[{
+     FractionBox[
+      SubscriptBox["F", "0"], 
+      RowBox[{"m", "\[VeryThinSpace]", 
+       SuperscriptBox["\[Omega]", "2"]}]], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{
+       "cos", "\[VeryThinSpace]", "\[Omega]", "\[VeryThinSpace]", "t"}]}], 
+      ")"}]}]}], TraditionalForm]],ExpressionUUID->
+  "3138a18c-7c41-4ebf-8601-d2c775311543"],
+ ". Again, if you have the calculus fresh enough, check that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["\[DifferentialD]", 
+     RowBox[{"\[DifferentialD]", "t"}]], 
+    RowBox[{"x", "(", "t", ")"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ad9abe8a-7fb9-4b6a-a036-5cae7abacc44"],
+ " is indeed ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "(", "t", ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7f41a74d-487f-4408-9e23-4d2f6d88e7a3"],
+ ". Also, I arranged the constants so that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"v", "(", "0", ")"}], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7fe006f2-782c-487c-98ae-35dde4076a34"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "0", ")"}], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5918fd22-fbde-4c3b-a95e-415a10e02950"],
+ ".\n\n(a) ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    SubscriptBox["F", "0"], 
+    RowBox[{"m", "\[VeryThinSpace]", 
+     SuperscriptBox["\[Omega]", "2"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1c86df30-3236-4e36-9fe1-0434fcbc3db2"],
+ " must have dimensions of length. Let\[CloseCurlyQuote]s choose the \
+constants so that this combination is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", " ", "meter"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b310c1d0-1b60-4e18-8d8a-dabcc1e59855"],
+ ". Meanwhile, \[Omega] must have dimensions of inverse time. Let\
+\[CloseCurlyQuote]s choose it so that it is simply ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"1", " ", "radian"}], "second"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "36f74a23-d4d6-4dac-a997-c2b7c84f5f31"],
+ ". Do a very nice graph of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "t", ")"}], "=", 
+    RowBox[{"1", " ", 
+     RowBox[{"meter", "(", 
+      RowBox[{"1", "-", 
+       RowBox[{"cos", "\[VeryThinSpace]\[VeryThinSpace]", 
+        FractionBox[
+         RowBox[{"t", " ", "radian"}], 
+         RowBox[{"1", " ", "second"}]]}]}], ")"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "33f1113f-e0eb-4b1b-a106-f40d93519605"],
+ " for the time interval -1 second to 1 second. You could use an online tool, \
+or you could manually plot it.\n\n(b) Superimpose onto this graph a graph of \
+the function ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", 
+     RowBox[{"(", "t", ")"}]}], " ", "=", " ", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{"1", " ", "meter"}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["t", 
+        RowBox[{"1", " ", "second"}]], ")"}], "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8ec2e8f7-ed62-4061-9653-b97d74b98000"],
+ ".\n\n(c) Evaluate and compare ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "t", ")"}], "=", 
+    RowBox[{"1", " ", 
+     RowBox[{"meter", "(", 
+      RowBox[{"1", "-", 
+       RowBox[{"cos", "\[VeryThinSpace]\[VeryThinSpace]", 
+        FractionBox[
+         RowBox[{"t", " ", "radian"}], 
+         RowBox[{"1", " ", "second"}]]}]}], ")"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "051aa97a-1f13-48c9-ae23-59f10f1307e9"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"x", "(", "t", ")"}], "=", " ", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{"1", " ", "meter"}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox["t", 
+        RowBox[{"1", " ", "second"}]], ")"}], "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bb3ee1e1-27ea-4b97-985c-f96c689d1d4b"],
+ " for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", " ", "=", " ", 
+    RowBox[{"1", " ", "second"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9d88dac5-e45e-4b6a-b813-1539b39b9774"],
+ ", t = 0.5 seconds, t=0.25 seconds and t = 0.125 seconds. As usual, since \
+the quantities are tending toward zero, you will want to take ratios to \
+observe something significant."
+}], "Text",
+ CellChangeTimes->{{3.8720033912238913`*^9, 3.8720034396997747`*^9}, {
+   3.872003561829097*^9, 3.872003579729658*^9}, {3.872003682451519*^9, 
+   3.872003685139969*^9}, {3.87200375815178*^9, 3.8720037855796432`*^9}, {
+   3.8720038302430773`*^9, 3.8720038408399067`*^9}, {3.8720039112639914`*^9, 
+   3.8720039139075737`*^9}, {3.8720039755906887`*^9, 3.872004574592676*^9}, 
+   3.872004609027967*^9, 3.872004704310175*^9, {3.8728104316204443`*^9, 
+   3.872810924580904*^9}, {3.872810973921958*^9, 3.8728116021971684`*^9}, {
+   3.872811637797855*^9, 3.872811992598418*^9}, {3.872813368114297*^9, 
+   3.87281337951057*^9}, {3.872813565664851*^9, 3.872813575193502*^9}, {
+   3.872813613725079*^9, 
+   3.872813657498908*^9}},ExpressionUUID->"b0ad17e2-c18e-4534-b767-\
+da4916eafd64"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1334, 1226},
+WindowMargins->{{-1808, Automatic}, {Automatic, 15}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fdb56f20-f88b-4f34-a223-df27a3586917"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 507, 8, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
+Cell[CellGroupData[{
+Cell[1090, 32, 1088, 18, 131, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+Cell[CellGroupData[{
+Cell[2203, 54, 515, 10, 54, "Subsection",ExpressionUUID->"2df20ea7-e6bb-498b-ac19-79575d6fe122"],
+Cell[2721, 66, 2829, 66, 178, "Text",ExpressionUUID->"af54a7f5-1f43-4f10-98b9-1a302e04b89e"],
+Cell[5553, 134, 2852, 60, 277, "Input",ExpressionUUID->"58e9ee3f-49a9-4d8c-97f3-a59d114e77c5"],
+Cell[8408, 196, 972, 17, 104, "Text",ExpressionUUID->"276df5dc-6f6a-4548-9086-a28f5ceff15f"],
+Cell[9383, 215, 3385, 71, 286, "Input",ExpressionUUID->"d67d2b34-3e5f-4cfa-b215-f3578447b334"],
+Cell[12771, 288, 1241, 20, 127, "Text",ExpressionUUID->"7c72865b-3f23-4dba-8ab4-151789b4ed25"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14049, 313, 548, 8, 54, "Subsection",ExpressionUUID->"530ae7ba-faa1-4875-bbaa-f35d9a2ab6bc"],
+Cell[14600, 323, 2775, 76, 206, "Text",ExpressionUUID->"f341c523-7ec3-4601-98ca-061d24600728"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17412, 404, 500, 7, 54, "Subsection",ExpressionUUID->"a870ad93-0b19-405c-b55f-bd6b008d181d"],
+Cell[17915, 413, 996, 20, 173, "Text",ExpressionUUID->"f145e1e9-de42-46c7-8c5e-1d44564e2618"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18948, 438, 607, 9, 54, "Subsection",ExpressionUUID->"1146bc5f-102f-4351-985f-c88cb4f9a7b5"],
+Cell[19558, 449, 8386, 234, 434, "Text",ExpressionUUID->"b0ad17e2-c18e-4534-b767-da4916eafd64"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

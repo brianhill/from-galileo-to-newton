@@ -19,7 +19,7 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 * NB/Context: *The Dialogue Concerning the Two Chief World Systems,* published in 1632 is the book that got Galileo on trial. It was banned in 1633 and not permitted to be published in Catholic countries until 1835. Galileo makes many arguments with the ultimate conclusions being that the Earth revolves daily, it is in motion around the Sun, and that the Sun and the Moon raise the tides. The specific argument we are reading is an argument for what is now known as Galilean Relativity. The idea is that you cannot detect if you are in uniform motion. This does not quite address either revolution around the Earth's axis or circular motion around the Sun, but it nonetheless goes a very long way toward explaining why we do not sense that we are hurtling through space at 67,000 miles per hour.
 * We will now leave Galileo and turn to Newton, but in addition to your first Newton reading, you will have your [1st Problem Set](./assignments/PS01.nb.pdf) on Galileo due Thursday.
 * Preparation for Thursday, Sep. 8 &mdash; In addition to doing the problem set on Newton, study pp. 5-19 of the Densmore edition of *The Principia.*
-* Thursday, Sep. 8 &mdash; *Inherent force, aka inertia,* L. vis insita  &mdash; The need for [a glossary](./my_glossary.html) &mdash; Newton's Cannon (see Densmore pp. 14-15)
+* Thursday, Sep. 8 &mdash; *Inherent force, aka inertia,* L. vis insita &mdash; The need for [a glossary](./my_glossary.html) &mdash; Newton's Cannon (see Densmore pp. 14-15)
 
 <img src="./resources/NewtonsCannon.jpeg" width="200">
 
@@ -38,3 +38,5 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 * Preparation for Friday, Sep. 23 &mdash; Conclude Book I Section I Lemmas
 
 ### Week 5 &mdash; Begin Book II Section II
+
+* Preparation for Tuesday, Sep. 27 &mdash; Do [Problem Set 3](./assignments/PS03.nb.pdf) and read Book I Section II Proposition I (but not the corollaries), stopping at the bottom of p. 130).
