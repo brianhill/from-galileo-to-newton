@@ -41,14 +41,14 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 
 * Preparation for Tuesday, Sep. 27 &mdash; Conclude Book I Section I (Lemma 11) &mdash; Do [Problem Set 3](./assignments/PS03.nb.pdf)
 * Preparation for Thursday, Sep. 29 &mdash; In Book I Section II, Study Propositions 1 and 2
-* Preparation for Friday, Sep. 30 &mdash; Study Propositions 3 and 4 &mdash; For Proposition 4, Corollaries 7, 8, and 9 are subtle and also quite distinct from the series of Corollaries 2-6, so let's not include them in this reading
+* Preparation for Friday, Sep. 30 &mdash; Study Propositions 3 and 4 &mdash; For Proposition 4, Corollaries 8 and 9 are subtle and also quite distinct from the series of Corollaries 2-7, so let's not include them in this reading
 * Note on Proposition 3 &mdash; This proposition is easy and intuitive. It says that if, for example, a moon (L) orbits a planet (T), and the moon by observation or assumption, appears to obey an equal area law, but we know that some other forces are causing an additional *and equal* acceleration of the moon and the planet, then this does not disturb the equal area law. Furthermore, we can conclude, just as we would if there were no additional acceleration (Newton would say no additional &ldquo;accelerative force&rdquo;), that the moon is under the influence of a centripetal force with the planet at its center. The one complication is *the quite important real-world situation,* which Densmore brings out on the top half of p. 149, which is that the moon and the planet actually have slightly different accelerative forces due to the Sun being a different distance and direction from them
 
 ### Week 6 &mdash; Centripetal Force Laws
 
 *As usual, the extent of each reading is subject to adjustment.*
 
-* Preparation for Tuesday, Oct. 4 &mdash; Study the remainder of Proposition 4, and Propositions 5, 6, and 7 &mdash; For Proposition 7, it is enough to understand the idea, (because it is unclear whether we actually need the result) &mdash; The idea is that it is possible to construct a force that keeps an object on a circle that is offset from the center of force &mdash; Newton is probably concerned with the situation of circles with offset centers, which Kepler toppled, only because of its historical importance &mdash; Or maybe he doesn't want to be tried for heresy! &mdash; Do [Problem Set 4 &mdash; FORTHCOMING](./Forthcoming.pdf)
+* Preparation for Tuesday, Oct. 4 &mdash; Study the remainder of Proposition 4, and Propositions 5, 6, and 7 &mdash; For Proposition 7, it is enough to understand the idea, (because it is unclear whether we actually need the result) &mdash; The idea is that it is possible to construct a force that keeps an object on a circle that is offset from the center of force &mdash; Newton is probably concerned with the situation of circles with offset centers, which Kepler toppled, only because of its historical importance &mdash; Or maybe he doesn't want to be tried for heresy! &mdash; Do [Problem Set](./assignments/PS04.nb.pdf)
 * Preparation for Thursday, Oct. 6 &mdash; Propositions 9 and 10 &mdash; Spirals and Ellipses
 * Preparation for Friday, Oct. 7 &mdash; Appendix A
 
