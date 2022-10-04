@@ -49,7 +49,7 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 *As usual, the extent of each reading is subject to adjustment.*
 
 * Preparation for Tuesday, Oct. 4 &mdash; Study the remainder of Proposition 4, and Propositions 5, 6, and 7 &mdash; For Proposition 7, it is enough to understand the idea, (because it is unclear whether we actually need the result) &mdash; The idea is that it is possible to construct a force that keeps an object on a circle that is offset from the center of force &mdash; Newton is probably concerned with the situation of circles with offset centers, which Kepler toppled, only because of its historical importance &mdash; Or maybe he doesn't want to be tried for heresy! &mdash; Do [Problem Set 4](./assignments/PS04.nb.pdf) (perhaps you will want these [Problem Set 4 Plotting Resources](./assignments/PS04-PlottingResources.nb.pdf))
-* Tuesday, Oct. 4 &mdash; For Proposition 7, [Euclid III.36](./resources/EuclidIII.36.pdf) is a non-obvious and needed prerequisite &mdash; [Problem Set 4 Solution](./assignments/ProblemSet04-Solution-Scanned.pdf)
+* Tuesday, Oct. 4 &mdash; For Proposition 7, [Euclid III.36](./resources/EuclidIII.36.pdf) is a non-obvious and needed prerequisite &mdash; [Problem Set 4 Solution](./assignments/PS04-Solution-Scanned.pdf)
 * Preparation for Thursday, Oct. 6 &mdash; Last two Propositions 9 and 10 &mdash; Spirals and Ellipses
 * Preparation for Friday, Oct. 7 &mdash; Appendix A
 
