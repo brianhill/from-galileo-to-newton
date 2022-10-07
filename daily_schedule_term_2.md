@@ -44,16 +44,18 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 * Preparation for Friday, Sep. 30 &mdash; Study Propositions 3 and 4 &mdash; For Proposition 4, Corollaries 8 and 9 are subtle and also quite distinct from the series of Corollaries 2-7, so let's not include them in this reading
 * Note on Proposition 3 &mdash; This proposition is easy and intuitive. It says that if, for example, a moon (L) orbits a planet (T), and the moon by observation or assumption, appears to obey an equal area law, but we know that some other forces are causing an additional *and equal* acceleration of the moon and the planet, then this does not disturb the equal area law. Furthermore, we can conclude, just as we would if there were no additional acceleration (Newton would say no additional &ldquo;accelerative force&rdquo;), that the moon is under the influence of a centripetal force with the planet at its center. The one complication is *the quite important real-world situation,* which Densmore brings out on the top half of p. 149, which is that the moon and the planet actually have slightly different accelerative forces due to the Sun being a different distance and direction from them
 
-### Week 6 &mdash; Centripetal Force Laws
+### Week 6 &mdash; Centripetal Force Laws &mdash; Complete Book I Section II
 
 *As usual, the extent of each reading is subject to adjustment.*
 
 * Preparation for Tuesday, Oct. 4 &mdash; Study the remainder of Proposition 4, and Propositions 5, 6, and 7 &mdash; For Proposition 7, it is enough to understand the idea, (because it is unclear whether we actually need the result) &mdash; The idea is that it is possible to construct a force that keeps an object on a circle that is offset from the center of force &mdash; Newton is probably concerned with the situation of circles with offset centers, which Kepler toppled, only because of its historical importance &mdash; Or maybe he doesn't want to be tried for heresy! &mdash; Do [Problem Set 4](./assignments/PS04.nb.pdf) (perhaps you will want these [Problem Set 4 Plotting Resources](./assignments/PS04-PlottingResources.nb.pdf))
 * Tuesday, Oct. 4 &mdash; For Proposition 7, [Euclid III.36](./resources/EuclidIII.36.pdf) is a non-obvious and needed prerequisite &mdash; [Problem Set 4 Solution](./assignments/PS04-Solution-Scanned.pdf)
-* Preparation for Thursday, Oct. 6 &mdash; Last two Propositions 9 and 10 &mdash; Spirals and Ellipses
-* Preparation for Friday, Oct. 7 &mdash; Appendix A
+* Preparation for Thursday, Oct. 6 &mdash; Proposition 9 (Spirals) and Appendix A (a property of hyperbolae and ellipses that will be needed needed for Proposition 10)
+* Thursday, Oct. 6 &mdash; Discussion of Proposition 9 &mdash; A simple explanation of the result of Appendix A for ellipses (using the fact that ellipses are &ldquo;squashed&rdquo; circles)
+* Preparation for Friday, Oct. 7 &mdash; Proposition 10 (Ellipses but with the central force coming from the center of the ellipse, not a focus)
+* Friday, Oct. 7 &mdash; A [two-column proof of Proposition 10](./resources/TwoColumnProofProposition10.jpeg.pdf) &mdash; A summation of Book I Section II
 
-### Week 7 &mdash; Term 2 Exam &mdash; Complete Book I Section II
+### Week 7 &mdash; Term 2 Exam
 
 * Tuesday, Oct. 11 &mdash; Term 2 Exam
 * Thursday, Oct. 13 &mdash; Complete Book I Section II
