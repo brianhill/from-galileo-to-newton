@@ -55,9 +55,9 @@ our best understanding of terms used by Newton, as he uses them. Here is the beg
 * Preparation for Friday, Oct. 7 &mdash; Proposition 10 (Ellipses but with the central force coming from the center of the ellipse, not a focus)
 * Friday, Oct. 7 &mdash; A [two-column proof of Proposition 10](./resources/TwoColumnProofProposition10.jpeg.pdf) &mdash; A summation of Book I Section II
 
-### Week 7 &mdash; Term 2 Exam
+### Week 7 &mdash; Term 2 Exam &mdash; Some Biography &mdash; Some Apollonius
 
 * Tuesday, Oct. 11 &mdash; Term 2 Exam
-* Thursday, Oct. 13 &mdash; Complete Book I Section II
+* Thursday, Oct. 13 &mdash; Exchange of Letters with Leibniz (provided by Ben) &mdash; Some biographical information (by Eugenia "Gena" Gorlin, a practicing therapist at Tufts when she wrote the article and now a clinical associate professor at UT Austin &mdash; We need to at least get a flavor of Apollonius because Newton has started using results about conic sections (e.g., Book I, Proposition 22)
 
 *Are we on track? We set out to cover the central argument, pp. 5-489. Completing Book I Section II means we can start our first reading for Term 3 at p. 227. So we will have covered 223 out of the total of 485 pages in Term 2. Allowing for the fact that we had to spend quite a bit of time on Galileo, we are in good shape. On the other hand, we may need to spend quite a bit of time getting results for conic sections that Newton assumes we know from Apollonius, so we shouldn't get over-confident.*
