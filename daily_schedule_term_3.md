@@ -1,4 +1,4 @@
-## From Galileo to Newton Daily Schedule Term 2
+## From Galileo to Newton Daily Schedule Term 3
 
 Course [home page](./)
 
