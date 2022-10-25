@@ -18,6 +18,7 @@ Terms 2-3, Deep Springs College, Prof. [Brian Hill](../index.html)
 Detailed daily schedules (kept retrospectively):
 
 * [Daily Schedule Term 2](./daily_schedule_term_2.html)
+* [Daily Schedule Term 3](./daily_schedule_term_3.html)
 
 ## Grading
 
