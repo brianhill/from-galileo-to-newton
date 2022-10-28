@@ -54,7 +54,7 @@ See also: [Daily Schedule Term 3](./daily_schedule_term_3.html)
 * Preparation for Friday, Oct. 7 &mdash; Proposition 10 (Ellipses but with the central force coming from the center of the ellipse, not a focus)
 * Friday, Oct. 7 &mdash; A [two-column proof of Proposition 10](./resources/TwoColumnProofProposition10.jpeg.pdf) &mdash; A summation of Book I Section II
 
-### Week 7 &mdash; Term 2 Exam &mdash; Some Biography &mdash; Some Apollonius
+### Week 7 &mdash; Term 2 Exam &mdash; Some Biography &mdash; Begin Apollonius
 
 * Tuesday, Oct. 11 &mdash; Term 2 Exam
 * Thursday, Oct. 13 &mdash; Exchange of Letters with Leibniz (provided by Ben) &mdash; Some biographical information (by Eugenia "Gena" Gorlin, a practicing therapist at Tufts when she wrote the article and now a clinical associate professor at UT Austin &mdash; We need to at least get a flavor of Apollonius because Newton has started using results about conic sections (e.g., Book I, Proposition 22)
