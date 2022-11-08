@@ -49,6 +49,6 @@ Context: With the possible exception of Proposition 1 and Proposition 6, Corolla
 ### Week 15
 
 * Tuesday, Dec. 13
-* Thursday, Dec. 14
+* Thursday, Dec. 15
 
 
