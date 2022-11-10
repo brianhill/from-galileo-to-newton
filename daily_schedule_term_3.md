@@ -23,11 +23,11 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolae, 
 
 * Preparation for Tuesday, Nov. 8 &mdash; Write out *your own version* of Proposition 11 (organize it as it makes sense to you, clearly demarcate results needed from other sources, and clearly identify steps that are required but do not understand &mdash; don't simply regurgitate Newton or Densmore even though you are depending on both of them for a full understanding!)
 * Thursday, Nov. 10 &mdash; Write out your own version of Proposition 13 (we are skipping Proposition 12)
-* Friday, Nov. 11 &mdash; [Apollonius Propositions 2 and 3](./resources/12MorePagesOfApollonius.pdf)
+* For Friday, Nov. 11 &mdash; Gleick through Chapter 10
 
 ### Week 11
 
-* Tuesday, Nov. 15
+* For Tuesday, Nov. 15 &mdash; [Apollonius Through Proposition 11](./resources/12MorePagesOfApollonius.pdf) &mdash; Focus on what is needed to understand Newton Proposition 13
 * Thursday, Nov. 17
 * Friday, Nov. 18
 
