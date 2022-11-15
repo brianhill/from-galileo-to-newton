@@ -33,7 +33,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * For Tuesday, Nov. 15 &mdash; [Apollonius Through Proposition 11](./resources/12MorePagesOfApollonius.pdf) &mdash; Focus on what is needed to understand Newton Proposition 13
 * Tuesday, Nov. 15 &mdash; Frustratingly, different translations of Apollonius have different numbering &mdash; what is referred to as Proposition 11 in the translation by Densmore and Donahue is what we already new as Proposition 1 in the [Apollonius translation by Halley](./resources/12PagesOfApollonius.pdf)
-* Problem Set 6, due in my box 9am, Thursday, Nov. 17 &mdash; Your write-up of Proposition 11: clearly delineate steps that you understand, what you must take on faith from other sources but nonetheless clearly understand the consequences of, and what you do not understand
+* Problem Set 6, due in my box 9am, Thursday, Nov. 17 &mdash; Your write-up of Proposition 13: clearly delineate steps that you understand, what you must take on faith from other sources but nonetheless clearly understand the consequences of, and what you do not understand
 * Preparation for Thursday Nov. 17 &mdash; Press on to Newton Propositions 14, 15, and 16
 * Preparation for Friday, Nov. 18 &mdash; Skip the terse summary of Book II (we will return to it as needed) &mdash; Read the 4 Rules of Philosophizing at the beginning of Book III &mdash; More Gleick also for Friday?
 
