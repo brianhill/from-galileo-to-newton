@@ -41,13 +41,15 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 *Mishel to choose Kuhn readings for Tuesday*
 
+*Two makeup classes on weekend before Thanksgiving*
+
 * Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
 * Sunday, Nov. 20 &mdash; Proposition 17
 * Tuesday, Nov. 22 &mdash; Begin the Phenomena
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
 
-*Odd schedule this week due to preg check*
+*Odd schedule this week due to Friday all-hands preg check*
 
 * Monday, Dec. 28
 * Tuesday, Nov. 29
