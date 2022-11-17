@@ -35,16 +35,16 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 * Tuesday, Nov. 15 &mdash; Frustratingly, different translations of Apollonius have different numbering &mdash; what is referred to as Proposition 11 in the translation by Densmore and Donahue is what we already new as Proposition 1 in the [Apollonius translation by Halley](./resources/12PagesOfApollonius.pdf)
 * Problem Set 6, due in my box 9am, Thursday, Nov. 17 &mdash; Your write-up of Proposition 13: clearly delineate steps that you understand, what you must take on faith from other sources but nonetheless clearly understand the consequences of, and what you do not understand
 * Preparation for Thursday Nov. 17 &mdash; Press on to Newton Propositions 14, 15, and 16
-* Preparation for Friday, Nov. 18 &mdash; Skip the terse summary of Book II (we will return to it as needed) &mdash; Read the 4 Rules of Philosophizing at the beginning of Book III &mdash; Read Barnard Essay (Luke will provide)
+* Preparation for Friday, Nov. 18 &mdash; Skip Densmore's terse summary of Book II (we will return to it as needed and as she refers to it) &mdash; Read the 4 Rules of Philosophizing at the opening of Book III &mdash; Read [Barnard Chapter 1](./resources/ClaudeBernardChapter1.pdf) (provided by Luke)
 
-### Week 12 &mdash; The Modern Treatment of Elliptical Orbits &mdash; Finish Book II &mdash; Book III: Begin The Phenomena
+### Week 12 &mdash; The Modern Treatment of Elliptical Orbits &mdash; Finish Book I &mdash; Book III: Begin The Phenomena
 
 *Mishel to choose Kuhn readings for Tuesday*
 
 *Two makeup classes on weekend before Thanksgiving*
 
 * 1pm, Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
-* 1pm, Sunday, Nov. 20 &mdash; Proposition 17
+* 1pm, Sunday, Nov. 20 &mdash; Finish Book I (through Proposition 17)
 * Tuesday, Nov. 22 &mdash; Begin the Phenomena
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
