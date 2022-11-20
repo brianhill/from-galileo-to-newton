@@ -39,12 +39,10 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 ### Week 12 &mdash; The Modern Treatment of Elliptical Orbits &mdash; Finish Book I &mdash; Book III: Begin The Phenomena
 
-* 1pm, Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
-* 1pm, Sunday, Nov. 20 &mdash; Finish Book I (through Proposition 17)
-
-*Mishel to choose Kuhn readings for Tuesday or for following Thursday ????
-
-* Tuesday, Nov. 22 &mdash; Begin the Phenomena
+* Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
+* Sunday, Nov. 20 &mdash; Finish Book I (through Proposition 17)
+* Preparation for Tuesday, Nov. 22 &mdash; Phenomena 1 (the moons of Jupiter) and 2 (the moons of Saturn) &mdash; Problem Set 7: choose an additional selection of moons of Jupiter and moons of Saturn, and extend Newton's tables in Phenomena 1 and 2
+* Tuesday, Nov. 22 &mdash; Discuss Phenomena 1 and 2
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
 
@@ -52,7 +50,10 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * Monday, Nov. 29 &mdash; Continue the Phenomena
 * Wednesday, Nov. 30 &mdash; Continue the Phenomena
-* Thursday, Dec. 1 &mdash; The prefatory General Scholium &mdash; Read [Barnard Chapter 2](./resources/ClaudeBernardChapter2.pdf) (provided by Luke) ????
+
+*Mishel to choose Kuhn selection to augment this "philosophy Thursday:"
+
+* Thursday, Dec. 1 &mdash; The prefatory General Scholium &mdash; Read [Barnard Chapter 2](./resources/ClaudeBernardChapter2.pdf) (provided by Luke)
 
 ### Week 14
 
