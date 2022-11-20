@@ -39,21 +39,20 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 ### Week 12 &mdash; The Modern Treatment of Elliptical Orbits &mdash; Finish Book I &mdash; Book III: Begin The Phenomena
 
-*Mishel to choose Kuhn readings for Tuesday*
-
-*Two makeup classes on weekend before Thanksgiving*
-
 * 1pm, Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
 * 1pm, Sunday, Nov. 20 &mdash; Finish Book I (through Proposition 17)
+
+*Mishel to choose Kuhn readings for Tuesday or for following Thursday ????
+
 * Tuesday, Nov. 22 &mdash; Begin the Phenomena
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
 
 *Odd schedule this week due to Friday all-hands preg check*
 
-* Monday, Dec. 28
-* Tuesday, Nov. 29
-* Thursday, Dec. 1
+* Monday, Nov. 29 &mdash; Continue the Phenomena
+* Wednesday, Nov. 30 &mdash; Continue the Phenomena
+* Thursday, Dec. 1 &mdash; The prefatory General Scholium &mdash; Read [Barnard Chapter 2](./resources/ClaudeBernardChapter2.pdf) (provided by Luke) ????
 
 ### Week 14
 
@@ -63,7 +62,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 ### Week 15
 
-*Thursday's class moved to Monday because Monday was regarded as by most people as best for an exam*
+*Thursday's class moved to Monday because Monday was regarded by most people as best for an exam*
 
 * Monday, Dec. 12 &mdash; Term 3 Exam
 * Tuesday, Dec. 13 &mdash;
