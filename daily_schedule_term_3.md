@@ -42,14 +42,14 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 * Saturday, Nov. 19 &mdash; The modern calculus-based treatment of elliptical orbits in polar *(r, &theta;)* coordinates
 * Sunday, Nov. 20 &mdash; Finish Book I (through Proposition 17)
 * Preparation for Tuesday, Nov. 22 &mdash; Phenomena 1 (the moons of Jupiter) and 2 (the moons of Saturn) &mdash; Problem Set 7: choose an additional selection of moons of Jupiter and moons of Saturn, and extend Newton's tables in Phenomena 1 and 2
-* Tuesday, Nov. 22 &mdash; Discuss Phenomena 1 and 2
+* Tuesday, Nov. 22 &mdash; Discussed Phenomena 1 to 5 (including retrograde motion, Luke's Desmos epicycle demonstration, and a Ptolemaic model animation on YouTube)
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
 
 *Odd schedule this week due to Friday all-hands preg check*
 
-* Monday, Nov. 29 &mdash; Continue the Phenomena
-* Wednesday, Nov. 30 &mdash; Continue the Phenomena
+* Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4) &mdash; Brian to prepare a homework assignment which includes retrograde motion)
+* Tuesday, Nov. 29 &mdash; Continue the Propositions
 
 *Mishel to choose Kuhn selection to augment this "philosophy Thursday:"
 
