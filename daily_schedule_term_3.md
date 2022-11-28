@@ -48,14 +48,14 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 *Odd schedule this week due to Friday all-hands preg check*
 
-* Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4) &mdash; 
-* Tuesday, Nov. 29 &mdash; Continue the Propositions
+* Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4)
 
-*Mishel to choose Kuhn selection to augment this "philosophy Thursday."*
+*Luke and Mishel will collaborate on choosing [Barnard](./resources/ClaudeBernardChapter2.pdf and Kuhn selections to augment the two Newton readings on "philosophy Tuesday."*
 
-* Preparation for Thursday, Dec. 1 &mdash; Read The prefatory General Scholium &mdash; Read [Barnard Chapter 2](./resources/ClaudeBernardChapter2.pdf) (provided by Luke) &mdash; Complete [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion
+* Preparation for Tuesday, Nov. 29 &mdash; Read the preface to the Principia and the last scholium (you will find them on pp. 3-4 and pp. 485-489 of Densmore) &mdash; Read what Luke and Mishel provide from Barnard and Kuhn
+* Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion &mdash; We added a third problem to Problem Set 8 to finish out what we started in class on Monday &mdash; For Thursday's reading, can we go from pp. 376 all the way to 421? &mdash; I would be happy to just understand and accept the result for the pendulum, which Newton has already quoted and used in Proposition 4 &mdash; Namely, that the period of a pendulum goes as the square root of: the length of the pendulum divided by the acceleration of gravity &mdash; That saves you a few pages of proofs
 
-### Week 14
+### Week 14 &mdash; The Remainder of Book III (pp. 422-484)
 
 * Tuesday, Dec. 6
 * Thursday, Dec. 8
