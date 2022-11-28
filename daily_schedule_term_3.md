@@ -51,7 +51,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 * Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4) &mdash; Brian to prepare a homework assignment that will be due Tuesday which includes retrograde motion
 * Tuesday, Nov. 29 &mdash; Continue the Propositions
 
-*Mishel to choose Kuhn selection to augment this "philosophy Thursday:"
+*Mishel to choose Kuhn selection to augment this "philosophy Thursday."*
 
 * Thursday, Dec. 1 &mdash; The prefatory General Scholium &mdash; Read [Barnard Chapter 2](./resources/ClaudeBernardChapter2.pdf) (provided by Luke)
 
