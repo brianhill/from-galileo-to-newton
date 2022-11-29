@@ -54,9 +54,9 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 ### Week 14 &mdash; The Remainder of Book III (pp. 422-484) &mdash; Wherein we come to understand The Shell Theorem
 
-*And when is Newton Going to explain to us the origin of Ocean Tides!?!*
+*And when is Newton going to explain to us the origin of Ocean Tides!?!*
 
-*And if we find the shell theorem to be easy, then we will have time to return to the material on pendulums that we skipped*
+*And if we find The Shell Theorem to be easy, then we will have time to return to the material on pendula that we skipped.*
 
 * Tuesday, Dec. 6
 * Thursday, Dec. 8
