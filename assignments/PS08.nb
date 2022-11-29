@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1391628,      22611]
-NotebookOptionsPosition[   1388395,      22548]
-NotebookOutlinePosition[   1388847,      22566]
-CellTagsIndexPosition[   1388804,      22563]
+NotebookDataLength[   1388743,      22545]
+NotebookOptionsPosition[   1385749,      22486]
+NotebookOutlinePosition[   1386201,      22504]
+CellTagsIndexPosition[   1386158,      22501]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -22123,20 +22123,16 @@ Cell[TextData[{
       SuperscriptBox[
        RowBox[{"(", 
         RowBox[{"time", " ", "elapsed"}], ")"}], "2"], " "}]}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "76db88e9-d564-4c06-9fc6-a26003157016"],
+   TraditionalForm]],ExpressionUUID->"76db88e9-d564-4c06-9fc6-a26003157016"],
  " by the Moon in its orbit in the limit where the distance deflected and the \
 elapsed time are both very small. The distance deflected I call ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "ddd9ae3f-fa20-4dc9-beb3-032c35623144"],
  ". The perpendicular distance I call ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],ExpressionUUID->
   "15d5cf68-5a0f-4931-bb78-7ede07cad9da"],
  ". The time elapsed and the perpendicular distance are related by:\n\n",
  Cell[BoxData[
@@ -22145,43 +22141,37 @@ elapsed time are both very small. The distance deflected I call ",
     RowBox[{"time", " ", "elapsed"}], " ", "=", " ", 
     RowBox[{
      SubscriptBox["d", "\[Perpendicular]"], "/", "v"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "47e2f59d-2271-4ea7-b7de-f3f40d1d30a1"],
+  ExpressionUUID->"47e2f59d-2271-4ea7-b7de-f3f40d1d30a1"],
  "\n\nFurthermore, ",
  Cell[BoxData[
   FormBox[
    RowBox[{"v", "=", 
-    RowBox[{"C", "/", "P"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"C", "/", "P"}]}], TraditionalForm]],ExpressionUUID->
   "56579bbc-d5da-4e69-acf4-10b769c5f859"],
  ", where C is the circumference of the Moon\[CloseCurlyQuote]s orbit, and  \
 ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "0f023f1d-0a52-4c9f-b808-1c34a82a8eff"],
  " is the period of the Moon\[CloseCurlyQuote]s orbit, which is 27.3 days (if \
-you want, ask me why it isn\[CloseCurlyQuote]t the commonly cited as 29.5 \
-days). Converting to hours, ",
+you want, ask me why it isn\[CloseCurlyQuote]t the value commonly cited of \
+29.5 days). Converting to minutes, ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"P", "=", "655"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"P", "=", "39343"}], TraditionalForm]],ExpressionUUID->
   "bacdd41b-8a89-4e26-81b9-8f84c2a6eec2"],
- " hours.\n\nNow is not the time to plug in ",
+ " minutes (I didn\[CloseCurlyQuote]t actually convert \[LongDash] I grabbed \
+this off of Densmore p. 366). Now is not the time to plug in ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "2a9e0846-706c-4281-8bb0-81befaf64be7"],
  ". The point is just that ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "cebde646-5673-49d6-b442-9247727fbedd"],
- " is known. Furthermore ",
+ " is known. Finally, ",
  Cell[BoxData[
-  FormBox["C", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["C", TraditionalForm]],ExpressionUUID->
   "06893975-5d90-4756-b0e7-289d64b78568"],
  " is known (it is 60 times the circumference of the Earth, because the Moon \
 orbits 60 times as far away as the surface, and the French have measured the \
@@ -22189,29 +22179,24 @@ circumference of the Earth).\n\nUse all of these facts to get a formula for \
 ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["q", "M"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["q", "M"], TraditionalForm]],ExpressionUUID->
   "d334aea2-9140-46f2-8cce-42373d9f7618"],
  " that involves only ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "601c989d-f844-4e13-b51b-1ed931c804db"],
  ", ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],ExpressionUUID->
   "3ae2eaaf-9955-4825-9390-b61852dd24c3"],
  ", ",
  Cell[BoxData[
-  FormBox["C", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["C", TraditionalForm]],ExpressionUUID->
   "b2d6fa4d-670e-47a3-97f0-a83a120eb4cd"],
  ", and ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "b5d1ed1e-fdd0-4ed9-bc94-61c5988b4a59"],
  "."
 }], "Text",
@@ -22223,7 +22208,9 @@ circumference of the Earth).\n\nUse all of these facts to get a formula for \
   3.878665987913862*^9, 3.878666211258595*^9}, {3.878666250115878*^9, 
   3.878666535943379*^9}, {3.878667562824607*^9, 3.878667626205595*^9}, {
   3.878667806106543*^9, 3.878667820303253*^9}, {3.878667902666546*^9, 
-  3.8786679099540663`*^9}},ExpressionUUID->"36b3b562-3f2f-41da-9178-\
+  3.8786679099540663`*^9}, {3.878690627428734*^9, 3.878690700541897*^9}, {
+  3.878691227087019*^9, 3.878691241453155*^9}, {3.878691360356483*^9, 
+  3.878691368658217*^9}},ExpressionUUID->"36b3b562-3f2f-41da-9178-\
 e91ef63bf85e"]
 }, Open  ]],
 
@@ -22260,8 +22247,7 @@ cdb3979ba1e1"],
 Cell[TextData[{
  "The equation of a circle of radius ",
  Cell[BoxData[
-  FormBox["R", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["R", TraditionalForm]],ExpressionUUID->
   "f84203c3-fab6-488d-991e-6124736cd0aa"],
  " is ",
  Cell[BoxData[
@@ -22273,15 +22259,13 @@ Cell[TextData[{
       RowBox[{"R", "-", 
        StyleBox[
         FractionBox["x", "2"],
-        FontSize->16]}], ")"}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+        FontSize->16]}], ")"}]}]}], TraditionalForm]],ExpressionUUID->
   "2f9539ca-5b4d-46b9-ba22-f81f23f3b75f"],
  ". You should check for yourself (as I did in class), that ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],ExpressionUUID->
   "6fdc3f67-3e6a-44d5-aa44-fd657aade872"],
  ", ",
  Cell[BoxData[
@@ -22289,47 +22273,40 @@ Cell[TextData[{
    RowBox[{"(", 
     RowBox[{
      RowBox[{"2", "R"}], ",", " ", "0"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "c6854f09-8829-4259-a304-a92880932781"],
+  ExpressionUUID->"c6854f09-8829-4259-a304-a92880932781"],
  ", ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"R", ",", " ", "R"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"R", ",", " ", "R"}], ")"}], TraditionalForm]],ExpressionUUID->
   "7e55a155-3624-4fcb-87eb-64964941105f"],
  ", and ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
     RowBox[{"R", ",", " ", 
-     RowBox[{"-", "R"}]}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"-", "R"}]}], ")"}], TraditionalForm]],ExpressionUUID->
   "0fe7489f-220e-4b0e-9830-3a739a4935ec"],
  ", are all satisfied by this equation. For ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"x", ",", " ", "y"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"x", ",", " ", "y"}], ")"}], TraditionalForm]],ExpressionUUID->
   "897f3306-6d56-485f-adaf-73a53e666029"],
  " very near ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],ExpressionUUID->
   "b271284f-fa74-4fde-8a23-4f78e5cc7056"],
  ",  you can neglect ",
  Cell[BoxData[
   FormBox[
    FractionBox["x", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->16,ExpressionUUID->"84798a3c-8256-4398-bda4-27f5ac6ff6f9"],
  " compared to ",
  Cell[BoxData[
-  FormBox["R", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["R", TraditionalForm]],ExpressionUUID->
   "2cafa4d5-372b-4ec7-ba24-693ec4a16e16"],
  " where those two terms appear in the parenthesis. So you are left with ",
  Cell[BoxData[
@@ -22337,42 +22314,35 @@ Cell[TextData[{
    RowBox[{
     SuperscriptBox["y", "2"], "=", " ", 
     RowBox[{"2", "x", "\[VeryThinSpace]", "R"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "84c12a55-2850-45df-b6fc-2418dae03f3a"],
+  ExpressionUUID->"84c12a55-2850-45df-b6fc-2418dae03f3a"],
  ".\n\nWhen ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"x", ",", " ", "y"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"x", ",", " ", "y"}], ")"}], TraditionalForm]],ExpressionUUID->
   "556a72a9-ca9b-4a41-be1e-e2c5897897bf"],
  " are very near ",
  Cell[BoxData[
   FormBox[
    RowBox[{"(", 
-    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"0", ",", " ", "0"}], ")"}], TraditionalForm]],ExpressionUUID->
   "4483919a-e03c-4cf4-b19c-b11cfa05cdc2"],
  ", we have been identifying ",
  Cell[BoxData[
-  FormBox["y", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["y", TraditionalForm]],ExpressionUUID->
   "1aa9c26f-5ba4-4e64-8c16-ae135f50d172"],
  " as ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],ExpressionUUID->
   "b8883e0b-8917-48b3-9376-7b2fdb373a1f"],
  " and ",
  Cell[BoxData[
-  FormBox["x", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["x", TraditionalForm]],ExpressionUUID->
   "4e9f4251-ae24-488b-9c7f-56f7267487dd"],
  " as ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "8b40ecb2-9fd8-44cf-b6a5-1cda5f234747"],
  ".\n\nMake those identifications in ",
  Cell[BoxData[
@@ -22380,24 +22350,20 @@ Cell[TextData[{
    RowBox[{
     SuperscriptBox["y", "2"], "=", " ", 
     RowBox[{"2", "x", "\[VeryThinSpace]", "R"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "2bca4bb4-68c7-471f-9d37-46e87678d9b5"],
+  ExpressionUUID->"2bca4bb4-68c7-471f-9d37-46e87678d9b5"],
  " and then use the result to get rid of ",
  Cell[BoxData[
-  FormBox["d", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["d", TraditionalForm]],ExpressionUUID->
   "1d0e1149-f6bd-4c47-b0cf-c679d4604d54"],
  " and ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["d", "\[Perpendicular]"], TraditionalForm]],ExpressionUUID->
   "eec07e2b-d104-4bf7-84d5-bce1ee61657a"],
  " in the formula for ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["q", "M"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["q", "M"], TraditionalForm]],ExpressionUUID->
   "fc3a102e-3feb-4e06-985d-dc1d0711bc55"],
  " that you found in part (b)."
 }], "Text",
@@ -22437,111 +22403,83 @@ Cell[TextData[{
  "It is a convenient (but fundamentally unimportant) coincidence that the \
 radius of the Moon\[CloseCurlyQuote]s orbit is 60 Earth radii and that ",
  Cell[BoxData[
-  FormBox[
-   RowBox[{
-    SuperscriptBox["60", "2"], "=", "3600"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["60", TraditionalForm]],ExpressionUUID->
   "cca8f650-f8e0-403d-aa5f-223d36d40518"],
- " is the number of seconds in an hour.\n\nNewton exploits this coincidence \
+ " is the number of seconds in a minute.\n\nNewton exploits this coincidence \
 (and we will exploit it too) as follows: If you compute ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["q", "M"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["q", "M"], TraditionalForm]],ExpressionUUID->
   "9b97d62b-015c-4aa8-926d-ac3cdbfe1a21"],
- " in the units of English ",
+ " in the units of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"feet", "/", 
-    SuperscriptBox["hour", "2"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SuperscriptBox["minute", "2"]}], TraditionalForm]],ExpressionUUID->
   "54b1164b-3c7a-4c12-b6c4-53891d8ac419"],
  " and you compute ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["q", "E"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["q", "E"], TraditionalForm]],ExpressionUUID->
   "99035804-50ee-4667-a552-ddf1a510d799"],
- "in the units of English feet / ",
+ " in the units of feet / ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["second", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SuperscriptBox["second", "2"], TraditionalForm]],ExpressionUUID->
   "47a7f740-6d8c-41ba-bf84-10193ea6632c"],
  ", ",
- StyleBox["and if they agree numerically,",
+ StyleBox["and if you find that they agree ",
   FontSlant->"Italic"],
- " then you have shown that the acceleration of gravity at the Moon is 1/3600 \
-of the acceleration of gravity here on Earth, which is the stunning \
-confirmation of the ",
+ "in these disparate units, then you have shown that the acceleration of \
+gravity at the Moon is 1/3600 of the acceleration of gravity here on Earth. \
+This is the stunning confirmation of the ",
  Cell[BoxData[
   FormBox[
    RowBox[{"1", "/", 
-    SuperscriptBox["r", "2"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SuperscriptBox["r", "2"]}], TraditionalForm]],ExpressionUUID->
   "ba453d26-e6b5-4a24-87df-84888a8737be"],
- " force law Newton gets in Proposition 4.\n\nCompute ",
+ " force law Newton is claiming in Proposition 4.\n\nCompute ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["q", "M"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["q", "M"], TraditionalForm]],ExpressionUUID->
   "63f3dec0-58ee-43bb-a0ba-36bb591526a7"],
  " and ",
  Cell[BoxData[
   FormBox[
+   SubscriptBox["q", "E"], TraditionalForm]],ExpressionUUID->
+  "5289e1b2-c5f7-4ed2-b370-17f55f4d10ad"],
+ " using the numbers that Newton has on hand. You can use Paris feet or \
+English feet, as long as you are consistent.\n\nIf you don\[CloseCurlyQuote]t \
+like Newton\[CloseCurlyQuote]s units trick, convert everything to (Paris or \
+English) feet / ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["second", "2"], TraditionalForm]],ExpressionUUID->
+  "84cd17ac-6f15-45d8-a1cc-6f45bdbdfc4f"],
+ " and just show that ",
+ Cell[BoxData[
+  FormBox[
    SubscriptBox["q", "E"], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
-  "5289e1b2-c5f7-4ed2-b370-17f55f4d10ad"],
- " using the numbers that Newton has on hand in the suggested units."
+  "c7165b11-32d3-4d69-894d-eec64e3962a9"],
+ " agrees with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3600", 
+    SubscriptBox["q", "M"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "44dc0d9d-ba41-46d7-b9c4-bb811b21ae8f"],
+ ".\n\nYou should mentally contemplate whether the amount of agreement is \
+better, about the same, or worse than expected."
 }], "Text",
- CellChangeTimes->{{3.878664960346525*^9, 3.878665228532877*^9}, {
-  3.878665263125474*^9, 3.878665389893293*^9}, {3.878665431965467*^9, 
-  3.878665469328906*^9}, {3.878665513398744*^9, 3.8786655724551363`*^9}, {
-  3.8786656311924753`*^9, 3.878665702705432*^9}, {3.878665761003457*^9, 
-  3.8786657873058033`*^9}, {3.878665818076511*^9, 3.8786659284215*^9}, {
-  3.878665987913862*^9, 3.878666211258595*^9}, {3.878666250115878*^9, 
-  3.878666535943379*^9}, {3.8786665701439447`*^9, 3.878666710968547*^9}, {
-  3.878666778514266*^9, 3.878667066078245*^9}, {3.8786671282023373`*^9, 
-  3.878667438565959*^9}, {3.878667977770587*^9, 3.8786680534392*^9}, {
-  3.878668085899542*^9, 3.878668090569065*^9}, {3.878668968978002*^9, 
-  3.878669004236753*^9}},ExpressionUUID->"43908e14-eb39-4191-8199-\
-cb9891f7e321"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["(e) Is this a confirmation?", "Subsubsection",
- CellChangeTimes->{{3.8713830600656424`*^9, 3.871383085838428*^9}, 
-   3.87199382472436*^9, {3.87199851398885*^9, 3.871998515158553*^9}, {
-   3.871998773166749*^9, 3.8719988089823017`*^9}, {3.872805763207642*^9, 
-   3.87280579211987*^9}, {3.872808305999755*^9, 3.872808308227614*^9}, {
-   3.872812244300688*^9, 3.872812260740779*^9}, {3.8734876448549643`*^9, 
-   3.873487671539316*^9}, {3.873500476377614*^9, 3.873500478324443*^9}, {
-   3.875897998747149*^9, 3.875898003910905*^9}, {3.875917116637005*^9, 
-   3.875917127392819*^9}, 3.8759171596905518`*^9, {3.878604095850527*^9, 
-   3.878604103073062*^9}, {3.878606988959773*^9, 3.878606997545382*^9}, {
-   3.8786099192253847`*^9, 3.8786099220155277`*^9}, {3.8786649013185873`*^9, 
-   3.878664950761786*^9}, {3.878665243383048*^9, 3.878665270439415*^9}, {
-   3.87866558285004*^9, 3.878665587453185*^9}, {3.8786665475523243`*^9, 
-   3.878666555989622*^9}, {3.878667083514763*^9, 3.8786671193801413`*^9}, {
-   3.878667423422819*^9, 
-   3.878667434977474*^9}},ExpressionUUID->"5f4be38a-06aa-4ed7-aa79-\
-6edea32e2357"],
-
-Cell["\<\
-Compare the level of agreement with the expected level of agreement  based on \
-the uncertainties that Newton is aware of. \
-\>", "Text",
- CellChangeTimes->{{3.878664960346525*^9, 3.878665228532877*^9}, {
-  3.878665263125474*^9, 3.878665389893293*^9}, {3.878665431965467*^9, 
-  3.878665469328906*^9}, {3.878665513398744*^9, 3.8786655724551363`*^9}, {
-  3.8786656311924753`*^9, 3.878665702705432*^9}, {3.878665761003457*^9, 
-  3.8786657873058033`*^9}, {3.878665818076511*^9, 3.8786659284215*^9}, {
-  3.878665987913862*^9, 3.878666211258595*^9}, {3.878666250115878*^9, 
-  3.878666535943379*^9}, {3.8786665701439447`*^9, 3.878666710968547*^9}, {
-  3.878666778514266*^9, 3.878667066078245*^9}, {3.8786671282023373`*^9, 
-  3.878667508934371*^9}},ExpressionUUID->"e9822f0c-b8a2-4f61-9501-\
-3b8e9fd726a0"]
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQvUeMO+H70zeOIbwTG0H0I+YnrSD69tQ9U0G09NN/
+s0B0Wtuq+SC6+ZDOUhBdNaFvDYg+pPFsM4h+NunaHhAdJKNwBESrnMw8DqKP
+FzmdBtHvanhvgugYu9oHIDrTLeMPiHbb6sz4A0hrGvxTAdFGs100QXTYv3tW
+IPpeSYAziP7T4JQOonsq2fLB8jKXpoLoZSssboLot7zrHoFonpN7noHoE6ZB
+z0H0aW/50J9AunpyeySILuEx+cr8DGjO7GPMLEC6Rf8wB4iu8YoVBNES942U
+QPSDviN6IPobv28QiF47/V4EiAYACAi49w==
+  "],ExpressionUUID->"43908e14-eb39-4191-8199-cb9891f7e321"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -22597,19 +22535,15 @@ Cell[1367859, 22022, 2341, 63, 215, "Text",ExpressionUUID->"83e86914-9803-4021-8
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1370237, 22090, 1135, 21, 45, "Subsubsection",ExpressionUUID->"1f8d7b3c-3aea-4560-bcea-5017013f0a29"],
-Cell[1371375, 22113, 4315, 113, 292, "Text",ExpressionUUID->"36b3b562-3f2f-41da-9178-e91ef63bf85e"]
+Cell[1371375, 22113, 4094, 100, 246, "Text",ExpressionUUID->"36b3b562-3f2f-41da-9178-e91ef63bf85e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1375727, 22231, 1348, 26, 45, "Subsubsection",ExpressionUUID->"fe18ea2a-a86e-431f-9da6-cdb3979ba1e1"],
-Cell[1377078, 22259, 5225, 154, 157, "Text",ExpressionUUID->"bddd20ae-6d0e-4518-a872-189af71b0a7f"]
+Cell[1375506, 22218, 1348, 26, 45, "Subsubsection",ExpressionUUID->"fe18ea2a-a86e-431f-9da6-cdb3979ba1e1"],
+Cell[1376857, 22246, 4574, 133, 157, "Text",ExpressionUUID->"bddd20ae-6d0e-4518-a872-189af71b0a7f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1382340, 22418, 1063, 15, 45, "Subsubsection",ExpressionUUID->"fb888933-b3fc-4f41-958d-301a426b4121"],
-Cell[1383406, 22435, 2984, 72, 152, "Text",ExpressionUUID->"43908e14-eb39-4191-8199-cb9891f7e321"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1386427, 22512, 1117, 16, 45, "Subsubsection",ExpressionUUID->"5f4be38a-06aa-4ed7-aa79-6edea32e2357"],
-Cell[1387547, 22530, 808, 13, 35, "Text",ExpressionUUID->"e9822f0c-b8a2-4f61-9501-3b8e9fd726a0"]
+Cell[1381468, 22384, 1063, 15, 45, "Subsubsection",ExpressionUUID->"fb888933-b3fc-4f41-958d-301a426b4121"],
+Cell[1382534, 22401, 3175, 80, 244, "Text",ExpressionUUID->"43908e14-eb39-4191-8199-cb9891f7e321"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
