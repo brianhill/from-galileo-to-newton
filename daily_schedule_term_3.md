@@ -50,7 +50,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4)
 * Preparation for Philosophy Tuesday, Nov. 29 &mdash; Read the preface to the Principia and the last scholium (you will find them on pp. 3-4 and pp. 485-489 of Densmore) &mdash; Read the second chapter of [Barnard](./resources/ClaudeBernardChapter2.pdf)
-* Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion (including the addition of Problem 3, handed out on Tuesday, on lunar acceleration) &mdash; For Thursday's reading, begin with Proposition 5 on p. 380, but after p. 387, skip pp. 388-401, which is a brilliant and challenging discussion of objects on pendulums, and after skipping that, tackle pp. 402-421
+* Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion (including the addition of Problem 3, handed out on Tuesday, on lunar acceleration) &mdash; For Thursday's reading, begin with Proposition 5 on p. 380, but after p. 387, skip pp. 388-401, which is a brilliant and challenging discussion of objects on pendula, and after skipping that, tackle pp. 402-421
 
 ### Week 14 &mdash; The Remainder of Book III (pp. 422-484) &mdash; Wherein we come to understand The Shell Theorem
 
