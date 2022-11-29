@@ -10,16 +10,18 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1391836,      22617]
-NotebookOptionsPosition[   1388485,      22552]
-NotebookOutlinePosition[   1388937,      22570]
-CellTagsIndexPosition[   1388894,      22567]
+NotebookDataLength[   1391628,      22611]
+NotebookOptionsPosition[   1388395,      22548]
+NotebookOutlinePosition[   1388847,      22566]
+CellTagsIndexPosition[   1388804,      22563]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell["Newton \[LongDash] Problem Set 8 \[LongDash] Planetary Motion", \
-"Section",
+Cell["\<\
+Newton \[LongDash] Problem Set 8 \[LongDash] Planetary Motion and Lunar \
+Acceleration\
+\>", "Section",
  CellChangeTimes->{{3.8713829840911713`*^9, 3.871382989885779*^9}, {
   3.871383097198255*^9, 3.871383109472487*^9}, {3.871383326862706*^9, 
   3.8713833808344088`*^9}, {3.871426734155431*^9, 3.871426735236566*^9}, {
@@ -28,8 +30,9 @@ Cell["Newton \[LongDash] Problem Set 8 \[LongDash] Planetary Motion", \
   3.873486835778569*^9, 3.8734868359127207`*^9}, {3.873486871855908*^9, 
   3.873486881000617*^9}, {3.873504560904983*^9, 3.873504574990171*^9}, {
   3.87589790646003*^9, 3.8758979146088963`*^9}, {3.878601434870738*^9, 
-  3.878601441666898*^9}, {3.878610670423193*^9, 
-  3.8786106722012577`*^9}},ExpressionUUID->"47b43857-58c2-4fa2-b265-\
+  3.878601441666898*^9}, {3.878610670423193*^9, 3.8786106722012577`*^9}, {
+  3.878670104316327*^9, 
+  3.878670112831851*^9}},ExpressionUUID->"47b43857-58c2-4fa2-b265-\
 428f10ab71de"],
 
 Cell[CellGroupData[{
@@ -87,9 +90,8 @@ Directions:
 
 A. Mars: On the following page, carefully mark equally-spaced movements for \
 Mars. Mars goes about 8\.ba around the Sun every two weeks. You need to \
-measure the spacings and then make more equal spacings. M1 and M2 were done \
-by computer. M3 shows how to continue by hand. You mark Mars positions M4 to \
-M14.
+measure the spacings and then make additional equal spacings. M1 and M2 were \
+done by computer. M3 was done by hand. You mark positions M4 to M14.
 B. Earth: Carefully mark equally-spaced \[LongDash] but larger \[LongDash] \
 movements for Earth. Earth goes further around the Sun than Mars in each \
 two-week period. It\[CloseCurlyQuote]s about 15\.ba. By computer, E1 and E2 \
@@ -112,11 +114,9 @@ E4 to E14.\
   3.878606099039845*^9, 3.878606237741845*^9}, {3.878606304010741*^9, 
   3.878606355510439*^9}, {3.878606461653833*^9, 3.878606534815516*^9}, {
   3.8786065748639383`*^9, 3.878606597556057*^9}, {3.878606632736964*^9, 
-  3.878606634512561*^9}},ExpressionUUID->"68452135-1709-4e59-b663-\
+  3.878606634512561*^9}, {3.878670282518207*^9, 
+  3.878670314062914*^9}},ExpressionUUID->"68452135-1709-4e59-b663-\
 0b3b9ee784ed"],
-
-Cell["", "PageBreak",
- PageBreakBelow->True,ExpressionUUID->"b3d48f4c-6c3a-454a-b488-0c2b70a4cd1c"],
 
 Cell[GraphicsData["PDF", "\<\
 9E14ARda;S<:9LCUl^G[Yo>Pd<C62S<P<21_HVX:?3`P;dIYK7AULR0_AVaQM6E4
@@ -21883,39 +21883,34 @@ know ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[Epsilon]", "=", 
-    RowBox[{"\[Delta]", "-", "\[Gamma]"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"\[Delta]", "-", "\[Gamma]"}]}], TraditionalForm]],ExpressionUUID->
   "436d2103-9382-43df-bca8-4d519c8ad5f0"],
  " =  ________ degrees.\nH. Examining the figure, what trig function and \
 equation involves ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "437a457e-072f-4ce2-9118-0301f75ed5d5"],
  ", 1 A.U., and \[Epsilon] ?\nI. Solve for ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "9e0eb4d3-1ee7-43d6-b58e-cf2380271248"],
  ".\nJ. Plug in, using the value for \[Epsilon] that you got in G. What is \
 the value of ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "0cb5bc8a-e32a-4525-97f1-db45ddd36d31"],
  " ? (Make sure you calculator is in degrees mode.)\nK. Since Newton prefers \
 to capture the ignorance of the A.U. as \"100.000,\" using his units, what is \
 the value of ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "edd2657b-ccbf-43a7-b6b3-925b90d9eceb"],
  "? Newton\[CloseCurlyQuote]s table on p. 336 goes to six significant \
 figures, but there are disagreements among the experimenters already at the 1 \
 part in 1,000 level. Our crude calculation where we rounded to the nearest \
 day should agree to about 1 part in 50. To do better, we\[CloseCurlyQuote]d \
-have to know what hour on September 26 Jupiter was in opposition, and what \
-hour on December 26th it will be in eastern quadrature, and also take into \
+have to know what hour on September 26th Jupiter was in opposition, and what \
+hour on December 22nd it will be in eastern quadrature, and also take into \
 account the extra hour \[OpenCurlyDoubleQuote]fall back\
 \[CloseCurlyDoubleQuote] if the times are quoted in typical local time."
 }], "Text",
@@ -21942,7 +21937,8 @@ account the extra hour \[OpenCurlyDoubleQuote]fall back\
    3.878610080317512*^9}, {3.878610125419774*^9, 3.878610277927917*^9}, {
    3.878610336698738*^9, 3.878610614432108*^9}, 3.878610813223503*^9, {
    3.87861086214981*^9, 3.878610862419381*^9}, {3.8786109743990707`*^9, 
-   3.878611008731938*^9}},ExpressionUUID->"f7a1dbbc-dbea-4c40-a14c-\
+   3.878611008731938*^9}, {3.878670127546667*^9, 
+   3.878670132463991*^9}},ExpressionUUID->"f7a1dbbc-dbea-4c40-a14c-\
 6cc5ed14366d"],
 
 Cell["", "PageBreak",
@@ -22569,53 +22565,51 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 797, 12, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
+Cell[558, 20, 877, 15, 67, "Section",ExpressionUUID->"47b43857-58c2-4fa2-b265-428f10ab71de"],
 Cell[CellGroupData[{
-Cell[1380, 36, 715, 10, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
+Cell[1460, 39, 715, 10, 43, "Subtitle",ExpressionUUID->"b96dcb3f-f75b-48bf-aaac-47d330c376ac"],
 Cell[CellGroupData[{
-Cell[2120, 50, 732, 10, 54, "Subsection",ExpressionUUID->"0f5cee7b-dca0-4638-a6ac-7bf4e275a652"],
-Cell[2855, 62, 3326, 53, 426, "Text",ExpressionUUID->"68452135-1709-4e59-b663-0b3b9ee784ed"],
-Cell[6184, 117, 99, 1, 1, "PageBreak",ExpressionUUID->"b3d48f4c-6c3a-454a-b488-0c2b70a4cd1c",
- PageBreakBelow->True],
-Cell[6286, 120, 464925, 7153, 918, "Graphics",ExpressionUUID->"2f6fa6ff-e45d-47d3-8b11-b0305952ed42"]
+Cell[2200, 53, 732, 10, 54, "Subsection",ExpressionUUID->"0f5cee7b-dca0-4638-a6ac-7bf4e275a652"],
+Cell[2935, 65, 3361, 53, 426, "Text",ExpressionUUID->"68452135-1709-4e59-b663-0b3b9ee784ed"],
+Cell[6299, 120, 464925, 7153, 918, "Graphics",ExpressionUUID->"2f6fa6ff-e45d-47d3-8b11-b0305952ed42"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[471248, 7278, 796, 12, 54, "Subsection",ExpressionUUID->"c32e6406-fad3-49d6-9993-90d8c2f2e187"],
-Cell[472047, 7292, 1029, 17, 127, "Text",ExpressionUUID->"e296e578-8ce2-4dcc-a123-b5641c3ff196"]
+Cell[471261, 7278, 796, 12, 54, "Subsection",ExpressionUUID->"c32e6406-fad3-49d6-9993-90d8c2f2e187"],
+Cell[472060, 7292, 1029, 17, 127, "Text",ExpressionUUID->"e296e578-8ce2-4dcc-a123-b5641c3ff196"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[473113, 7314, 774, 11, 54, "Subsection",ExpressionUUID->"6b35fdad-d015-4aa7-b5c2-0a4b6cea2304"],
-Cell[473890, 7327, 2920, 47, 265, "Text",ExpressionUUID->"74524aca-3262-45dc-a31a-0db9d732e38c"]
+Cell[473126, 7314, 774, 11, 54, "Subsection",ExpressionUUID->"6b35fdad-d015-4aa7-b5c2-0a4b6cea2304"],
+Cell[473903, 7327, 2920, 47, 265, "Text",ExpressionUUID->"74524aca-3262-45dc-a31a-0db9d732e38c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[476847, 7379, 840, 12, 54, "Subsection",ExpressionUUID->"32b47326-76b7-444a-9a0d-9234530af8a0"],
-Cell[477690, 7393, 881895, 14469, 284, "Input",ExpressionUUID->"b21112b9-4bcd-411f-8938-b73cafe1482e"],
-Cell[1359588, 21864, 4810, 81, 357, "Text",ExpressionUUID->"f7a1dbbc-dbea-4c40-a14c-6cc5ed14366d"],
-Cell[1364401, 21947, 99, 1, 4, "PageBreak",ExpressionUUID->"54b022bd-f908-4f0e-938a-d2bb18e5384f",
+Cell[476860, 7379, 840, 12, 54, "Subsection",ExpressionUUID->"32b47326-76b7-444a-9a0d-9234530af8a0"],
+Cell[477703, 7393, 881895, 14469, 284, "Input",ExpressionUUID->"b21112b9-4bcd-411f-8938-b73cafe1482e"],
+Cell[1359601, 21864, 4707, 77, 357, "Text",ExpressionUUID->"f7a1dbbc-dbea-4c40-a14c-6cc5ed14366d"],
+Cell[1364311, 21943, 99, 1, 1, "PageBreak",ExpressionUUID->"54b022bd-f908-4f0e-938a-d2bb18e5384f",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1364537, 21953, 1200, 25, 54, "Subsection",ExpressionUUID->"0acca71a-5fbe-4673-a752-4f419ecfa102"],
-Cell[1365740, 21980, 1095, 20, 128, "Text",ExpressionUUID->"d11bfe37-96b3-42fa-bdc2-adc1373839a6"],
+Cell[1364447, 21949, 1200, 25, 54, "Subsection",ExpressionUUID->"0acca71a-5fbe-4673-a752-4f419ecfa102"],
+Cell[1365650, 21976, 1095, 20, 128, "Text",ExpressionUUID->"d11bfe37-96b3-42fa-bdc2-adc1373839a6"],
 Cell[CellGroupData[{
-Cell[1366860, 22004, 1086, 20, 45, "Subsubsection",ExpressionUUID->"89271087-0a2f-46c7-bea0-6f9e09414d25"],
-Cell[1367949, 22026, 2341, 63, 215, "Text",ExpressionUUID->"83e86914-9803-4021-86fc-c51269e50dda"]
+Cell[1366770, 22000, 1086, 20, 45, "Subsubsection",ExpressionUUID->"89271087-0a2f-46c7-bea0-6f9e09414d25"],
+Cell[1367859, 22022, 2341, 63, 215, "Text",ExpressionUUID->"83e86914-9803-4021-86fc-c51269e50dda"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1370327, 22094, 1135, 21, 45, "Subsubsection",ExpressionUUID->"1f8d7b3c-3aea-4560-bcea-5017013f0a29"],
-Cell[1371465, 22117, 4315, 113, 292, "Text",ExpressionUUID->"36b3b562-3f2f-41da-9178-e91ef63bf85e"]
+Cell[1370237, 22090, 1135, 21, 45, "Subsubsection",ExpressionUUID->"1f8d7b3c-3aea-4560-bcea-5017013f0a29"],
+Cell[1371375, 22113, 4315, 113, 292, "Text",ExpressionUUID->"36b3b562-3f2f-41da-9178-e91ef63bf85e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1375817, 22235, 1348, 26, 45, "Subsubsection",ExpressionUUID->"fe18ea2a-a86e-431f-9da6-cdb3979ba1e1"],
-Cell[1377168, 22263, 5225, 154, 157, "Text",ExpressionUUID->"bddd20ae-6d0e-4518-a872-189af71b0a7f"]
+Cell[1375727, 22231, 1348, 26, 45, "Subsubsection",ExpressionUUID->"fe18ea2a-a86e-431f-9da6-cdb3979ba1e1"],
+Cell[1377078, 22259, 5225, 154, 157, "Text",ExpressionUUID->"bddd20ae-6d0e-4518-a872-189af71b0a7f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1382430, 22422, 1063, 15, 45, "Subsubsection",ExpressionUUID->"fb888933-b3fc-4f41-958d-301a426b4121"],
-Cell[1383496, 22439, 2984, 72, 152, "Text",ExpressionUUID->"43908e14-eb39-4191-8199-cb9891f7e321"]
+Cell[1382340, 22418, 1063, 15, 45, "Subsubsection",ExpressionUUID->"fb888933-b3fc-4f41-958d-301a426b4121"],
+Cell[1383406, 22435, 2984, 72, 152, "Text",ExpressionUUID->"43908e14-eb39-4191-8199-cb9891f7e321"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1386517, 22516, 1117, 16, 45, "Subsubsection",ExpressionUUID->"5f4be38a-06aa-4ed7-aa79-6edea32e2357"],
-Cell[1387637, 22534, 808, 13, 35, "Text",ExpressionUUID->"e9822f0c-b8a2-4f61-9501-3b8e9fd726a0"]
+Cell[1386427, 22512, 1117, 16, 45, "Subsubsection",ExpressionUUID->"5f4be38a-06aa-4ed7-aa79-6edea32e2357"],
+Cell[1387547, 22530, 808, 13, 35, "Text",ExpressionUUID->"e9822f0c-b8a2-4f61-9501-3b8e9fd726a0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
