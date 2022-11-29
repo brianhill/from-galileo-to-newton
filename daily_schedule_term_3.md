@@ -49,13 +49,14 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 *Odd schedule this week due to Friday all-hands preg check*
 
 * Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4)
+* Preparation for Philosophy Tuesday, Nov. 29 &mdash; Read the preface to the Principia and the last scholium (you will find them on pp. 3-4 and pp. 485-489 of Densmore) &mdash; Read what Luke and Mishel chose from [Barnard](./resources/ClaudeBernardChapter2.pdf)
+* Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion (including the addition of Problem 3, handed out on Tuesday, on lunar acceleration) &mdash; For Thursday's reading, begin with Proposition 5 on p. 380, but after p. 387, skip pp. 388-401, which is a brilliant and challenging discussion of objects on pendulums, and after skipping that, tackle pp. 402-421
 
-*Luke and Mishel will collaborate on choosing [Barnard](./resources/ClaudeBernardChapter2.pdf) and Kuhn selections to augment the two Newton readings on "philosophy Tuesday."*
+### Week 14 &mdash; The Remainder of Book III (pp. 422-484) &mdash; Wherein we come to understand The Shell Theorem
 
-* Preparation for Tuesday, Nov. 29 &mdash; Read the preface to the Principia and the last scholium (you will find them on pp. 3-4 and pp. 485-489 of Densmore) &mdash; Read what Luke and Mishel provide from Barnard and Kuhn
-* Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion and lunar acceleration &mdash; For Thursday's reading, can we go from pp. 376 all the way to 421? &mdash; I would be happy to just understand and accept the result for the pendulum, which Newton has already quoted and used in Proposition 4 &mdash; Namely, that the period of a pendulum goes as the square root of: the length of the pendulum divided by the acceleration of gravity &mdash; That saves you a few pages of proofs
+*And when is Newton Going to explain to us the origin of Ocean Tides!?!*
 
-### Week 14 &mdash; The Remainder of Book III (pp. 422-484)
+*And if we find the shell theorem to be easy, then we will have time to return to the material on pendulums that we skipped*
 
 * Tuesday, Dec. 6
 * Thursday, Dec. 8
