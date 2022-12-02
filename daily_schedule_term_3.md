@@ -66,6 +66,6 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * Monday, Dec. 12 &mdash; Term 3 Exam
 
-*Kuhn, chosen by Mishel?!?*
+*A final philosophy Tuesday with Kuhn, to be chosen by Mishel?!?*
 
-* Tuesday, Dec. 13 &mdash; Maybe on our last day we should finally read Kuhn? In academic circles, Kuhn is known for his history of the black-body radiation (a fancy name for what escapes from a small hole (what escapes is radiation, not convected air)) which Planck studied, and found ways around what is known as &ldquo;the ultraviolet catastrophe.&ldquo; A gentle discussion from Kuhn on this matter (he has some quite advanced discussions) and how it kicked off the quantum-mechanics revolution would be welcome, even though it has nothing to do with Newton.
+* Tuesday, Dec. 13 &mdash; Maybe on our last day we should finally read Kuhn? In academic circles, Kuhn is known for his history of the black-body radiation (a fancy name for what escapes from a small hole (what escapes is radiation, not convected air)) which Planck studied, and found ways around what is known as &ldquo;the ultraviolet catastrophe.&rdquo; A gentle discussion from Kuhn on this matter (he has some quite advanced discussions) and how it kicked off the quantum-mechanics revolution would be welcome, even though it has next-to-nothing to do with Newton.
