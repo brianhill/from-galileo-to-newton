@@ -46,21 +46,19 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 ### Week 13 &mdash; Book III: The Phenomena (Continued)
 
-*Odd schedule this week due to Friday all-hands preg check*
+*Compressed schedule this week due to Friday all-hands preg check*
 
 * Monday, Nov. 28 &mdash; Cover Propositions 3 and 4 on the orbit of the Moon (including the scholium to Proposition 4)
 * Preparation for Philosophy Tuesday, Nov. 29 &mdash; Read the preface to the Principia and the last scholium (you will find them on pp. 3-4 and pp. 485-489 of Densmore) &mdash; Read the second chapter of [Barnard](./resources/ClaudeBernardChapter2.pdf)
 * Preparation for Thursday, Dec. 1 &mdash; [Problem Set 8](./assignments/PS08.nb.pdf) on planetary motion (including the addition of Problem 3, handed out on Tuesday, on lunar acceleration) &mdash; For Thursday's reading, begin with Proposition 5 on p. 380, but after p. 387, skip pp. 388-401, which is a brilliant and challenging discussion of objects on pendula, and after skipping that, tackle pp. 402-421
 
-### Week 14 &mdash; The Remainder of Book III (pp. 422-484) &mdash; Wherein we come to understand The Shell Theorem
+### Week 14 &mdash; The Remainder of Book III (pp. 422-484) &mdash; The Shell Theorem and Its Consequences
 
-*And when is Newton going to explain to us the origin of Ocean Tides!?!*
+*And when is Newton going to explain to us the origin of Ocean Tides!?! Is there only the brief comment in III.5 Corollary 3 (Densmore p. 385): hence, &ldquo;the sun and moon perturb our sea,&rdquo; as will be explained? If there is no more on the tides in our reading, I will make a problem for you.*
 
-*And if we find The Shell Theorem to be easy, then we will have time to return to the material on pendula that we skipped.*
-
-* Tuesday, Dec. 6
-* Thursday, Dec. 8
-* Friday, Dec. 9
+* Preparation for Tuesday, Dec. 6 &mdash; pp. 422-451, The Shell Theorem
+* Preparation for Thursday, Dec. 8 &mdash; pp. 452-484, The Consequences of the Shell Theorem
+* Friday, Dec. 9 &mdash; We should probably return to the pendulum material that we skipped, pp. 388-401 &mdash; Problem Set 9 on The 2-D Shell Theorem (I can call that &ldquo;The Ring Theorem&rdquo;), and on Ocean Tides
 
 ### Week 15
 
@@ -68,6 +66,6 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * Monday, Dec. 12 &mdash; Term 3 Exam
 
-*Maybe on our last day we should finally read Kuhn?*
+*Kuhn, chosen by Mishel?!?*
 
-* Tuesday, Dec. 13 &mdash;
+* Tuesday, Dec. 13 &mdash; Maybe on our last day we should finally read Kuhn? In academic circles, Kuhn is known for his history of the black-body radiation (a fancy name for what escapes from a small hole (what escapes is radiation, not convected air)) which Planck studied, and found ways around what is known as &ldquo;the ultraviolet catastrophe.&ldquo; A gentle discussion from Kuhn on this matter (he has some quite advanced discussions) and how it kicked off the quantum-mechanics revolution would be welcome, even though it has nothing to do with Newton.
