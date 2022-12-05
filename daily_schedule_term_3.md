@@ -58,7 +58,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 * Preparation for Tuesday, Dec. 6 &mdash; pp. 422-451, The Shell Theorem
 * Preparation for Thursday, Dec. 8 &mdash; pp. 452-484, The Consequences of the Shell Theorem
-* Friday, Dec. 9 &mdash; We should probably return to the pendulum material that we skipped, pp. 388-401 &mdash; Problem Set 9 on The 2-D Shell Theorem (I can call that &ldquo;The Ring Theorem&rdquo;), and on Ocean Tides
+* Friday, Dec. 9 &mdash; We should probably return to the pendulum material that we skipped, pp. 388-401 &mdash; [Problem Set 9](./assignments/PS09.nb.pdf) on The 2-D Shell Theorem (I can call that &ldquo;The Ring Theorem&rdquo;), and on Ocean Tides
 
 ### Week 15
 
