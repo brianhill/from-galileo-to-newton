@@ -56,8 +56,8 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 *And when is Newton going to explain to us the origin of Ocean Tides!?! Is there only the brief comment in III.5 Corollary 3 (Densmore p. 385): hence, &ldquo;the sun and moon perturb our sea,&rdquo; as will be explained? If there is no more on the tides in our reading, I will make a problem for you.*
 
-* Preparation for Tuesday, Dec. 6 &mdash; pp. 422-451, The Shell Theorem
-* Preparation for Thursday, Dec. 8 &mdash; pp. 452-484, The Consequences of the Shell Theorem
+* Preparation for Tuesday, Dec. 6 &mdash; pp. 422-449, The Shell Theorem
+* Preparation for Thursday, Dec. 8 &mdash; pp. 450-459, Propositions following The Shell Theorem
 * Friday, Dec. 9 &mdash; We should probably return to the pendulum material that we skipped, pp. 388-401 &mdash; [Problem Set 9](./assignments/PS09.nb.pdf) on The 2-D Shell Theorem (I can call that &ldquo;The Ring Theorem&rdquo;), and on Ocean Tides
 
 ### Week 15
