@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   4176656,      68842]
-NotebookOptionsPosition[   4173722,      68792]
-NotebookOutlinePosition[   4174174,      68810]
-CellTagsIndexPosition[   4174131,      68807]
+NotebookDataLength[   4176643,      68841]
+NotebookOptionsPosition[   4173709,      68791]
+NotebookOutlinePosition[   4174161,      68809]
+CellTagsIndexPosition[   4174118,      68806]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -65882,7 +65882,7 @@ Cell[TextData[{
  Cell[BoxData[
   FormBox[
    RowBox[{"4.904", 
-    SuperscriptBox["x10", "11"], 
+    SuperscriptBox["x10", "12"], 
     RowBox[{
      SuperscriptBox[
       StyleBox["m",
@@ -65991,16 +65991,14 @@ calculated in part (b). Because ",
    SuperscriptBox[
     RowBox[{"(", 
      RowBox[{"23141", "/", "23140"}], ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "ede1afa2-8f2e-4986-80fc-2ad997f011b9"],
+  ExpressionUUID->"ede1afa2-8f2e-4986-80fc-2ad997f011b9"],
  " and  ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox[
     RowBox[{"(", 
      RowBox[{"23141", "/", "23142"}], ")"}], "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "9076c66c-554f-47ad-b1b3-d9c2ce6bef5a"],
+  ExpressionUUID->"9076c66c-554f-47ad-b1b3-d9c2ce6bef5a"],
  " are both so close to 1, you are going to have to be creative to get a good \
 answer to the question \[OpenCurlyDoubleQuote]how much more is the water on \
 the near side of the Earth being accelerated toward the Sun than the water on \
@@ -66021,8 +66019,9 @@ the far side of the Earth?\[CloseCurlyDoubleQuote]"
    3.879209643588256*^9, 3.879209839686389*^9}, {3.8792098780713778`*^9, 
    3.879210108784395*^9}, {3.879210194734997*^9, 3.8792102293750353`*^9}, {
    3.879210266364923*^9, 3.87921031935316*^9}, {3.879210371939083*^9, 
-   3.8792103972850723`*^9}, {3.879210450317812*^9, 
-   3.879210460329689*^9}},ExpressionUUID->"68103158-9cfd-4bb0-b10f-\
+   3.8792103972850723`*^9}, {3.879210450317812*^9, 3.879210460329689*^9}, {
+   3.87978950962043*^9, 
+   3.879789509711111*^9}},ExpressionUUID->"68103158-9cfd-4bb0-b10f-\
 92ee69045629"],
 
 Cell["\<\
@@ -68834,14 +68833,14 @@ Cell[3998339, 65813, 857, 14, 58, "Text",ExpressionUUID->"7bd44297-886b-4579-85d
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3999233, 65832, 274, 4, 54, "Subsection",ExpressionUUID->"0db4cf6d-804f-459a-9deb-ea48b0441533"],
-Cell[3999510, 65838, 7299, 187, 338, "Text",ExpressionUUID->"68103158-9cfd-4bb0-b10f-92ee69045629"],
-Cell[4006812, 66027, 290, 7, 32, "ItemNumbered",ExpressionUUID->"12168a02-7fae-4e48-b2d3-179095e1f6d3"],
-Cell[4007105, 66036, 498, 9, 53, "ItemNumbered",ExpressionUUID->"8a251c9c-1e88-4e58-8a64-41b3998a24dd"],
-Cell[4007606, 66047, 344, 7, 32, "ItemNumbered",ExpressionUUID->"87f2105c-a162-4958-b126-cdfc824781fc"],
-Cell[4007953, 66056, 617, 11, 53, "ItemNumbered",ExpressionUUID->"41b7d5df-b59d-4510-a7a1-6e29d5938880"],
-Cell[4008573, 66069, 510, 10, 53, "ItemNumbered",ExpressionUUID->"74ae7080-c8d4-45e2-b2bc-8acc070a9180"],
-Cell[4009086, 66081, 273, 6, 35, "Text",ExpressionUUID->"a612ddaf-777b-4a7a-80df-332daf262db9"],
-Cell[4009362, 66089, 164332, 2699, 354, "Input",ExpressionUUID->"ca547b76-0c08-4b3a-90ca-adb8863cc293"]
+Cell[3999510, 65838, 7286, 186, 338, "Text",ExpressionUUID->"68103158-9cfd-4bb0-b10f-92ee69045629"],
+Cell[4006799, 66026, 290, 7, 32, "ItemNumbered",ExpressionUUID->"12168a02-7fae-4e48-b2d3-179095e1f6d3"],
+Cell[4007092, 66035, 498, 9, 53, "ItemNumbered",ExpressionUUID->"8a251c9c-1e88-4e58-8a64-41b3998a24dd"],
+Cell[4007593, 66046, 344, 7, 32, "ItemNumbered",ExpressionUUID->"87f2105c-a162-4958-b126-cdfc824781fc"],
+Cell[4007940, 66055, 617, 11, 53, "ItemNumbered",ExpressionUUID->"41b7d5df-b59d-4510-a7a1-6e29d5938880"],
+Cell[4008560, 66068, 510, 10, 53, "ItemNumbered",ExpressionUUID->"74ae7080-c8d4-45e2-b2bc-8acc070a9180"],
+Cell[4009073, 66080, 273, 6, 35, "Text",ExpressionUUID->"a612ddaf-777b-4a7a-80df-332daf262db9"],
+Cell[4009349, 66088, 164332, 2699, 354, "Input",ExpressionUUID->"ca547b76-0c08-4b3a-90ca-adb8863cc293"]
 }, Open  ]]
 }, Open  ]]
 }
