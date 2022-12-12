@@ -64,7 +64,7 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 
 *Thursday's class moved to Monday because Monday was regarded by most people as best for an exam*
 
-* Monday, Dec. 12 &mdash; [Term 3 Exam](./exams/Term3Exam.nb.pdf)
+* Monday, Dec. 12 &mdash; [Term 3 Exam](./exams/Term3Exam.nb.pdf) &mdash; [Term 3 Exam Solution](./exams/Term3Exam-Solution.pdf)
 
 *A final philosophy Tuesday with Kuhn, to be chosen by Mishel?!?*
 
