@@ -65,7 +65,6 @@ More Context: Proposition 11 is for ellipses, Proposition 12 is for hyperbolas, 
 *Thursday's class moved to Monday because Monday was regarded by most people as best for an exam*
 
 * Monday, Dec. 12 &mdash; [Term 3 Exam](./exams/Term3Exam.nb.pdf) &mdash; [Term 3 Exam Solution](./exams/Term3Exam-Solution.pdf)
+* Tuesday, Dec. 13 &mdash; We will discuss Kuhn's essay, "Mathematical versus Experimental Traditions in the Development of Physical Science"
+* Bonus class, Thursday, Dec. 15th &mdash; As we did on Saturday, Nov. 19th, we will make contact with the modern treatment &mdash; On Nov. 19th, we used polar coordinates and differential equations to show ellipses are a solution of Newton's laws &mdash; Today, we will set up and do the triple integral that proves the Shell Theorem
 
-*A final philosophy Tuesday with Kuhn, to be chosen by Mishel?!?*
-
-* Tuesday, Dec. 13 &mdash; Maybe on our last day we should finally read Kuhn? In academic circles, Kuhn is known for his history of the black-body radiation (a fancy name for what escapes from a small hole (what escapes is radiation, not convected air)) which Planck studied, and found ways around what is known as &ldquo;the ultraviolet catastrophe.&rdquo; A gentle discussion from Kuhn on this matter (he has some quite advanced discussions) and how it kicked off the quantum-mechanics revolution would be welcome, even though it has next-to-nothing to do with Newton.
