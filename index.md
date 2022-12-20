@@ -11,11 +11,11 @@ Terms 2-3, Deep Springs College, Prof. [Brian Hill](../index.html)
 ## What We Desire to Cover
 
 * The backbone of our course is pp. 5-489 of [Newton's Principia: The Central Argument, 3rd Edition](https://www.amazon.com/Newtons-Principia-Central-Argument-Translation/dp/1888009241) by Dana Densmore, with translations and diagrams by William H. Donahue. That is 485 pages of material, but do not be daunted by page-count alone. Newton himself is terse. Only at most one-quarter of the material in Densmore is by Newton. The rest is Densmore's commentary. Assuming most of our 14 weeks together is occupied on this material, we have 35 to 44 pages of reading per week. *However,* there is additional material we must cover.
-* Newton presumes an understanding of Galileo's *Two New Sciences* and *Two Chief World Systems,* of Euclid's *Elements,* and of Apollonius' *On Conic Sections.* We will therefore need to budget a minimum of 2 of our 14 weeks to pick up something from those works. To be safe we will try to cover 45 pages per week when we are focused on Densmore. If we cannot maintain that pace, then we will simply not get to some of Newton's brilliant conclusions in Book III of *The Principia.*
+* Newton presumes an understanding of Galileo's *Two New Sciences* and *Two Chief World Systems,* of Euclid's *Elements,* and of Apollonius' *On Conic Sections.* We will therefore need to budget 2 to 3 of our 14 weeks to pick up something from those works. To be safe we will try to cover 45 pages per week when we are focused on Densmore. This will enable us to get to Newton's brilliant conclusions at the end of our study of *The Principia.*
   
 ## Daily Schedules
 
-Detailed daily schedules (kept retrospectively):
+Detailed daily schedules:
 
 * [Daily Schedule Term 2](./daily_schedule_term_2.html)
 * [Daily Schedule Term 3](./daily_schedule_term_3.html)
